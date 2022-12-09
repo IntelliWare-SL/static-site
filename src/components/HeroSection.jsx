@@ -5,8 +5,8 @@ import bgCurves from "../assets/images/bg-curves.png";
 
 const HeroSection = () => {
   return (
-    <>
-      <div className="hero-bg-image mt-1 pt-5">
+    <section>
+      <div className="hero-bg-image mt-2 pt-5">
         <img src={bgCurves} alt="" width="100%"/>
       </div>
       <Container className="hero-section px-0">
@@ -100,7 +100,7 @@ const HeroSection = () => {
           </Col>
         </Row>
       </Container>
-    </>
+    </section>
   );
 }
 
