@@ -1,11 +1,11 @@
 import './App.scss';
-import CustomNavbar from './components/CustomNavbar';
+import HomePage from './pages/HomePage';
 import React from "react";
 
 function App() {
   return (
     <div className="App">
-      <CustomNavbar/>
+      <HomePage/>
     </div>
   );
 }
