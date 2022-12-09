@@ -1,0 +1,24 @@
+// Custom bootstrap theming
+
+// Site color variables
+$color-cta: #ED882D;
+$color-cta-shade: #FDF3EA;
+$color-dark-bg: #1A1A1A;
+$color-p1: #3D3D3D;
+$color-p1-shade: #ECECEC;
+$color-p2: #767860;
+$color-p2-shade: #F1F1EF;
+$color-d1: #242423;
+$color-d2: #50504F;
+$color-d3: #7C7C7B;
+$color-d4: #A7A7A7;
+$color-d5: #D3D3D3;
+$color-d6: #E9E9E9;
+$color-d7: #F4F4F4;
+
+$theme-colors: (
+        "primary": $color-cta,
+        "secondary": $color-d2,
+);
+
+@import "~bootstrap/scss/bootstrap";
