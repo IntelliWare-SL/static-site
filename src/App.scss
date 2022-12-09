@@ -1,0 +1,48 @@
+// Custom bootstrap theming
+@import "./scss/custom";
+
+// Google fonts
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+button {
+    border-radius: 0 !important;
+}
+
+// Navbar
+.navbar {
+    border-bottom: 1px solid #DADADA;
+    .navbar-nav {
+        a.nav-link {
+            font-weight: 600;
+            color: $color-d5;
+        }
+
+        a.nav-link:hover, a.nav-link:focus {
+            color: $color-cta;
+        }
+
+        .active {
+            text-decoration: underline !important;
+        }
+    }
+
+    .cta-btn {
+        padding: 16px 24px 16px 24px!important;
+    }
+
+}
+
+#btn-navbar-options-toggle {
+  outline: none;
+  background: none;
+  border: none;
+}
+
+
+
+
+
