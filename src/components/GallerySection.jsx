@@ -6,7 +6,7 @@ const GallerySection = () => {
     <section className="gallery-section bg-white pb-5">
       <Container className="py-4">
         <Row sm={12} className="justify-content-center text-center mb-3">
-          <Col sm={6}>
+          <Col sm={12}>
             <h2 className="section-title">Made From The Ground Up</h2>
           </Col>
         </Row>

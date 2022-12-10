@@ -5,14 +5,14 @@ import bgCurves from "../assets/images/bg-curves.png";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className="hero-section">
       <div className="hero-bg-image mt-2 pt-5">
         <img src={bgCurves} alt="" width="100%"/>
       </div>
       <Container className="hero-section px-0">
         <Row className="m-0 p-0">
           <Col sm={12} md={6} className="hero-left my-auto">
-            <section className="hero-content pb-5">
+            <section className="hero-content pb-4">
               <h1 className="text-white hero-title py-2">We Create Spaces For A <span>Happy</span> Life.</h1>
               <br/>
               <h5 className="text-white hero-subtitle py-2 fw-normal">
