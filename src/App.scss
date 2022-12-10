@@ -2,7 +2,7 @@
 @import "./scss/custom";
 
 // Google fonts
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=PT+Serif:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=PT+Serif:wght@400;700&family=Source+Serif+Pro&display=swap');
 
 body {
     font-family: 'Outfit', sans-serif;
@@ -10,6 +10,7 @@ body {
 }
 
 button {
+    font-weight: 600 !important;
     border-radius: 0 !important;
 }
 
@@ -63,13 +64,12 @@ h1, h2 {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    background-color: white;
-    width: 275px;
-    height: 275px;
-    box-shadow: 0 25px 75px $color-d6;
     border-radius: 0;
     border: none;
-    margin: 2px;
+
+    h4 {
+        font-size: 1.4rem;
+    }
 
     h5 {
         color: $color-d2
@@ -80,14 +80,33 @@ h1, h2 {
     }
 }
 
+.small-tile {
+    background-color: white;
+    width: 275px;
+    height: 275px;
+    box-shadow: 0 25px 75px $color-d6;
+    margin: 2px;
+}
+
+.large-tile {
+    width: 400px !important;
+    height: 400px !important;
+}
+
+.tile-shadow {
+    background-color: white;
+    box-shadow: 0 25px 75px $color-d6;
+}
+
 // Sections
 
 .section-title {
     font-size: 3.5rem;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .section-subtitle {
+    font-family: 'Source Serif Pro', serif;
     font-size: 1.2rem;
     line-height: 1.6;
 }
@@ -252,18 +271,39 @@ h1, h2 {
 
 
         .window {
-            background-color: red;
             height: 720px;
 
             img {
                 object-fit: cover;
             }
-
         }
     }
 }
 
+// Services section
 
+.services-section {
+    .section-subtitle {
+        font-size: 1.15rem;
+        font-family: 'Source Serif Pro', serif;
+    }
+}
 
+// Why Us section
 
+.why-us-section {
+    .image {
+        border-right: 18px solid white;
+        height: 700px;
 
+        img {
+            object-fit: cover;
+        }
+    }
+
+    .banner {
+        background-color: $color-dark-bg;
+        height: 520px;
+        margin-left: -110px;
+    }
+}

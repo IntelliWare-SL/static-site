@@ -6,7 +6,7 @@ const Tile = ({
                 content = "Erat diam hendrerit integer elit nulla mauris ultrices tellus eget fringilla nec in purus vel nisi"
               }) => {
   return (
-    <Col sm={5} className="tile p-4">
+    <Col sm={4} className="tile small-tile p-4">
       <div className="tile-icon mb-3 pt-2">{icon}</div>
       <h5 className="my-1">
         {title}
