@@ -5,6 +5,8 @@ import GallerySection from "../components/GallerySection";
 import ServicesSection from "../components/ServicesSection";
 import WhyUsSection from "../components/WhyUsSection";
 import FeaturedProjectsSection from "../components/FeaturedProjectsSection";
+import TestimonialsSection from "../components/TestimonialsSection";
+import ContactUsSection from "../components/ContactUsSection";
 
 const HomePage = () => {
   return (
@@ -16,7 +18,8 @@ const HomePage = () => {
       <ServicesSection/>
       <WhyUsSection/>
       <FeaturedProjectsSection/>
-      {/*<TestimonialsSection/>*/}
+      <TestimonialsSection/>
+      <ContactUsSection/>
     </>
   );
 }
