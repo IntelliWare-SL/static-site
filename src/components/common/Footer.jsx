@@ -1,5 +1,5 @@
 import {Button, Col, Container, Row} from "react-bootstrap";
-import brandLogoLong from "../assets/images/brand-logo-long.png";
+import brandLogoLong from "../../assets/images/brand-logo-long.png";
 import SocialMediaIcons from "./SocialMediaIcons";
 import ContactDetailsField from "./ContactDetailsField";
 

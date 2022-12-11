@@ -15,7 +15,7 @@ const LargeTile = ({
       <p className="my-2">
         {content}
       </p>
-      <a href="#" className="text-primary mt-3 fw-bold">Read More</a>
+      <a href="src/components#" className="text-primary mt-3 fw-bold">Read More</a>
     </Col>
   );
 }

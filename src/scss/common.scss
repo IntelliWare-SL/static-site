@@ -1,0 +1,208 @@
+// Components
+
+// Horizontal and vertical line components
+.h-line {
+    height: 2px;
+    width: 100%;
+    background-color: $color-cta;
+    margin: 28px 0;
+}
+
+.v-line {
+    width: 2px;
+    height: 100%;
+    background-color: $color-cta;
+}
+
+// Buttons
+.cta-btn {
+    font-weight: 600 !important;
+    padding: 16px 24px 16px 24px !important;
+}
+
+// Navbar
+.navbar {
+    background-color: $color-dark-bg !important;
+    border-bottom: 0.8px solid #DADADA;
+    position: fixed;
+    width: 100%;
+    z-index: 12;
+
+    .navbar-nav {
+        a.nav-link {
+            font-weight: 600;
+            color: $color-d5;
+        }
+
+        a.nav-link:hover, a.nav-link:focus {
+            color: $color-cta;
+        }
+
+        .active {
+            text-decoration: underline !important;
+        }
+    }
+
+    #navbar-options-toggle-btn {
+        outline: none;
+        background: none;
+        border: none;
+    }
+}
+
+// Social media icons component
+.social-media-icons .icon-container {
+    justify-content: space-evenly;
+    height: 70px;
+    width: 210px;
+    background-color: $color-dark-bg;
+}
+
+// Tile component
+.tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-radius: 0;
+    border: none;
+
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    h5 {
+        color: $color-d2
+    }
+
+    p {
+        color: $color-d3;
+    }
+}
+
+.small-tile {
+    background-color: white;
+    width: 275px;
+    height: 275px;
+    box-shadow: 0 25px 75px $color-d6;
+    margin: 2px;
+}
+
+.large-tile {
+    width: 400px !important;
+    height: 400px !important;
+}
+
+.tile-shadow {
+    background-color: white;
+    box-shadow: 0 25px 75px $color-d6;
+}
+
+// Banner over image component
+.banner-over-image {
+    padding-left: 12px;
+    padding-right: 12px;
+
+    .image {
+        height: 650px;
+
+        img {
+            object-fit: cover;
+            width: 900px;
+        }
+
+        img.float-start {
+            object-position: left;
+        }
+
+        img.float-end {
+            object-position: right;
+        }
+    }
+
+    .banner-wrapper {
+        position: absolute;
+        width: 1296px !important;
+    }
+
+    .banner {
+        background-color: $color-dark-bg;
+        height: 510px;
+        width: 540px;
+
+        .banner-content {
+            padding: 56px 40px 56px 68px;
+        }
+
+        .h-line {
+            width: 40%;
+            margin-top: 16px;
+        }
+    }
+}
+
+// Sections
+.section-title {
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+.section-subtitle {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+// Footer
+footer {
+    background-color: $color-dark-bg;
+
+    h3 {
+        color: white;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    h5 {
+        line-height: 1.5;
+
+        span {
+            display: inline-block;
+            color: $color-cta;
+        }
+    }
+
+    .brand-logo {
+    }
+
+    .brand-tagline {
+        color: white;
+        font-size: 1.1rem;
+    }
+
+    .social-media-icons .icon-container {
+        width: 120px;
+        justify-content: space-between;
+    }
+
+    .section-2-text {
+        font-size: 1rem;
+        color: $color-d4;
+    }
+
+    .footer-section {
+        padding: 0 105px;
+    }
+
+    .section-border {
+        border-right: 0.6px solid $footer-section-border-color;
+    }
+
+    .contact-details-wrapper {
+        color: $color-d4;
+    }
+
+    .copyright-bar {
+        background-color: $color-d2;
+    }
+}

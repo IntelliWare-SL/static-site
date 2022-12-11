@@ -1,6 +1,6 @@
 import {Col, Container, Row} from "react-bootstrap";
 import React from "react";
-import userAvatar from "../assets/images/user-avatar.png";
+import userAvatar from "../../assets/images/user-avatar.png";
 
 const TestimonialsSection = () => {
   return (
