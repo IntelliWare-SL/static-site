@@ -96,3 +96,34 @@
         border-left: 3px solid $color-cta;
     }
 }
+
+.team-members-section {
+    .team-member-card {
+        .image-wrapper {
+            width: 100%;
+            height: 320px;
+
+            img {
+                object-fit: cover;
+                object-position: top left;
+            }
+        }
+
+        h3.member-name {
+            font-size: 2rem;
+        }
+
+        h6.member-role {
+            font-size: 1.15rem;
+            color: $color-d3;
+        }
+    }
+}
+
+.book-meeting-section {
+    form {
+        button {
+            padding: 20px 60px;
+        }
+    }
+}
