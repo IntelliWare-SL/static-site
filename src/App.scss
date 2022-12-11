@@ -24,6 +24,21 @@ h1, h2 {
     font-weight: bold !important;
 }
 
+label {
+    color: $color-d2;
+    padding-bottom: 5px;
+}
+
+input {
+    border-radius: 0 !important;
+    border: 1px solid $color-d4;
+    height: 55px;
+}
+
+textarea {
+    border-radius: 0 !important;
+}
+
 @import "scss/common";
 @import "scss/page-1";
 @import "scss/page-2";
