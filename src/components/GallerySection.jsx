@@ -10,7 +10,7 @@ const GallerySection = () => {
             <h2 className="section-title">Made From The Ground Up</h2>
           </Col>
         </Row>
-        <Row className="gallery-photos py-4">
+        <Row className="gallery-photos pt-4 pb-3">
           <Col sm={6} md={3}>
             <div className="line mx-auto ms-0"></div>
             <div className="window">
