@@ -1,0 +1,25 @@
+.hero-section-3 {
+    min-height: unset !important;
+    height: fit-content !important;
+
+    .hero-content {
+        .arrow-wrapper {
+            margin-top: -40px !important;
+        }
+    }
+}
+
+.our-partners-section {
+    background-color: $color-light-bg;
+
+    .section-text {
+        font-weight: 400;
+        color: $color-d3;
+    }
+
+    .partner-logo-bar {
+        .partner-logo {
+            width: 100%;
+        }
+    }
+}
