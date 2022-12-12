@@ -1,5 +1,5 @@
 import {Button, Col, Container, Row} from "react-bootstrap";
-import Tile from "./Tile";
+import Tile from "../common/Tile";
 import React from "react";
 
 const WhatWeDoSection = () => {

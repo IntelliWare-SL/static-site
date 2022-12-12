@@ -1,11 +1,11 @@
 import './App.scss';
-import HomePage from './pages/HomePage';
 import React from "react";
+import SecondPage from "./pages/SecondPage";
 
 function App() {
   return (
     <div className="App">
-      <HomePage/>
+      <SecondPage/>
     </div>
   );
 }

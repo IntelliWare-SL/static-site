@@ -1,13 +1,13 @@
-import CustomNavbar from "../components/CustomNavbar";
-import HeroSection from "../components/HeroSection";
-import WhatWeDoSection from "../components/WhatWeDoSection";
-import GallerySection from "../components/GallerySection";
-import ServicesSection from "../components/ServicesSection";
-import WhyUsSection from "../components/WhyUsSection";
-import FeaturedProjectsSection from "../components/FeaturedProjectsSection";
-import TestimonialsSection from "../components/TestimonialsSection";
-import ContactUsSection from "../components/ContactUsSection";
-import Footer from "../components/Footer";
+import CustomNavbar from "../components/common/CustomNavbar";
+import HeroSection from "../components/page-1/HeroSection";
+import WhatWeDoSection from "../components/page-1/WhatWeDoSection";
+import GallerySection from "../components/page-1/GallerySection";
+import ServicesSection from "../components/page-1/ServicesSection";
+import WhyUsSection from "../components/page-1/WhyUsSection";
+import FeaturedProjectsSection from "../components/page-1/FeaturedProjectsSection";
+import TestimonialsSection from "../components/page-1/TestimonialsSection";
+import ContactUsSection from "../components/page-1/ContactUsSection";
+import Footer from "../components/common/Footer";
 
 const HomePage = () => {
   return (

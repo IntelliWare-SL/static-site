@@ -1,8 +1,8 @@
 import React from 'react';
 import {Button, Col, Container, Row} from "react-bootstrap";
-import heroImage from "../assets/images/hero-image.jpeg";
-import bgCurves from "../assets/images/bg-curves.png";
-import SocialMediaIcons from "./SocialMediaIcons";
+import heroImage from "../../assets/images/hero-image.jpeg";
+import bgCurves from "../../assets/images/bg-curves.png";
+import SocialMediaIcons from "../common/SocialMediaIcons";
 
 const HeroSection = () => {
   return (

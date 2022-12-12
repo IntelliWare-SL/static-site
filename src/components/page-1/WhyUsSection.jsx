@@ -1,6 +1,6 @@
 import {Container} from "react-bootstrap";
 import React from "react";
-import BannerOverImage from "./BannerOverImage";
+import BannerOverImage from "../common/BannerOverImage";
 
 const WhyUsSection = () => {
   return (

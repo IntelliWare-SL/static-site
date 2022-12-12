@@ -8,7 +8,8 @@ const CustomNavbar = () => {
         {/*<Navbar.Toggle />*/}
         <Button id="navbar-options-toggle-btn">
           <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.625 2.125H26.375M1.625 10H26.375M1.625 17.875H14" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M1.625 2.125H26.375M1.625 10H26.375M1.625 17.875H14" stroke="white" strokeWidth="2.5"
+                  strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </Button>
         <Navbar.Brand href="#home" className="mx-4">

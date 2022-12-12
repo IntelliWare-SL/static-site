@@ -23,7 +23,7 @@ const BannerOverImage = ({
             <p className="section-subtitle my-4">{bannerContent}</p>
             <Button variant="primary" className="my-3">{buttonText}</Button>
           </div>
-          <div className={alignBannerRight ? "line float-end" : "line float-start"}></div>
+          <div className={alignBannerRight ? "h-line float-end" : "h-line float-start"}></div>
         </div>
       </Col>
     </Row>
