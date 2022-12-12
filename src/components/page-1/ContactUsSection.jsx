@@ -11,7 +11,7 @@ const ContactUsSection = () => {
                          doesn't have to be. We are dedicated to helping you tell your story and branding yourself in the
                          industry."
                          buttonText="Contact Us"
-                         buttonLink="#"
+                         buttonLink="/contact-us"
                          imageUrl="https://img.freepik.com/free-photo/skyscraper-view-city-leader-window-frame_1134-1034.jpg?w=2000&t=st=1670734476~exp=1670735076~hmac=57633e0d77536b1db1df1dfdb0e4e0a6e3f265056b68f9ed16de9e81411b1df6"
                          alignBannerRight={false}/>
       </Container>

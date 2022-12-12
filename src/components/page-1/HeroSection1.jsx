@@ -3,6 +3,7 @@ import {Button, Col, Container, Row} from "react-bootstrap";
 import heroImage from "../../assets/images/hero-image.jpeg";
 import bgCurves from "../../assets/images/bg-curves.png";
 import SocialMediaIcons from "../common/SocialMediaIcons";
+import {Link} from "react-router-dom";
 
 const HeroSection1 = () => {
   return (
@@ -10,7 +11,7 @@ const HeroSection1 = () => {
       <div className="hero-bg-image mt-2 pt-5">
         <img src={bgCurves} alt="" width="100%"/>
       </div>
-      <Container className="hero-section px-0">
+      <Container className="hero-section-1 px-0">
         <Row className="m-0 p-0">
           <Col sm={12} md={6} className="hero-left my-auto">
             <section className="hero-content pb-4">
@@ -25,7 +26,9 @@ const HeroSection1 = () => {
               </h5>
               <br/>
               <div className="hero-actions d-inline-flex">
-                <Button variant="primary" className="hero-button px-5 py-2 me-2">Contact Us</Button>
+                <Button variant="primary" className="hero-button px-5 py-2 me-2">
+                  <Link to="/contact-us">Contact Us</Link>
+                </Button>
                 <Button className="play-button">
                   <div className="play-button-icon ms-3">
                     <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">

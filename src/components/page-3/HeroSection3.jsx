@@ -12,7 +12,7 @@ const HeroSection3 = () => {
         <Row className="m-0 p-0 pt-5">
           <Col sm={12} md={6} className="hero-left pe-5 h-100">
             <section className="hero-content">
-              <h6 className="breadcrumbs">Home/Services</h6>
+              <h6 className="breadcrumbs">Home / Services</h6>
               <h1 className="text-white hero-title py-2">We Work Hard
                 <br/>
                 To Make You

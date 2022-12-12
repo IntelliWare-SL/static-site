@@ -15,9 +15,17 @@
 }
 
 // Buttons
-.cta-btn {
+.cta-btn, .cta-btn-outline {
     font-weight: 600 !important;
     padding: 16px 24px 16px 24px !important;
+}
+
+.cta-btn-outline a {
+    color: $color-cta;
+}
+
+.cta-btn-outline:hover a {
+    color: black;
 }
 
 // Navbar
@@ -29,17 +37,38 @@
     z-index: 12;
 
     .navbar-nav {
-        a.nav-link {
-            font-weight: 600;
+        a {
+            font-weight: 400;
             color: $color-d5;
         }
 
-        a.nav-link:hover, a.nav-link:focus {
+        a:hover, a:focus {
             color: $color-cta;
         }
 
-        .active {
+        a.active {
+            font-weight: 600;
             text-decoration: underline !important;
+            color: $color-cta;
+        }
+    }
+
+    .cta-btn-outline {
+
+        a {
+            color: white;
+        }
+
+        a:hover, a:focus {
+            color: unset;
+        }
+    }
+
+    .cta-btn-outline:hover {
+        border-color: $color-cta !important;
+
+        a {
+            color: black;
         }
     }
 
@@ -78,6 +107,10 @@
     p {
         color: $color-d3;
     }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
 .small-tile {
@@ -89,11 +122,12 @@
 }
 
 .large-tile {
+    transition: all 0.3s ease;
     width: 400px !important;
     height: 400px !important;
 }
 
-.tile-shadow {
+.tile-shadow:hover {
     background-color: white;
     box-shadow: 0 25px 75px $color-d6;
 }

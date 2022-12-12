@@ -8,6 +8,7 @@
 }
 
 .hero-section-1 {
+    height: 100%;
 
     .hero-content {
 
@@ -101,14 +102,14 @@
 }
 
 // What We Do section
-.what-we-do-section {
-    button.cta-btn:hover {
-        color: white !important;
-    }
-}
 
 // Gallery section
 .gallery-section {
+
+    .h-line {
+        width: 225px;
+    }
+
     .gallery-photos {
         text-align: center;
 
