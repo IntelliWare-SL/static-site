@@ -1,5 +1,5 @@
 import CustomNavbar from "../components/common/CustomNavbar";
-import HeroSection from "../components/page-1/HeroSection";
+import HeroSection1 from "../components/page-1/HeroSection1";
 import WhatWeDoSection from "../components/page-1/WhatWeDoSection";
 import GallerySection from "../components/page-1/GallerySection";
 import ServicesSection from "../components/page-1/ServicesSection";
@@ -13,7 +13,7 @@ const HomePage = () => {
   return (
     <>
       <CustomNavbar/>
-      <HeroSection/>
+      <HeroSection1/>
       <WhatWeDoSection/>
       <GallerySection/>
       <ServicesSection/>

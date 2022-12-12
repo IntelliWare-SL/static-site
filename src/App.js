@@ -1,11 +1,11 @@
 import './App.scss';
 import React from "react";
-import SecondPage from "./pages/SecondPage";
+import ThirdPage from "./pages/ThirdPage";
 
 function App() {
   return (
     <div className="App">
-      <SecondPage/>
+      <ThirdPage/>
     </div>
   );
 }

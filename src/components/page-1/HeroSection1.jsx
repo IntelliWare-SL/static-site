@@ -4,9 +4,9 @@ import heroImage from "../../assets/images/hero-image.jpeg";
 import bgCurves from "../../assets/images/bg-curves.png";
 import SocialMediaIcons from "../common/SocialMediaIcons";
 
-const HeroSection = () => {
+const HeroSection1 = () => {
   return (
-    <section className="hero-section">
+    <section className="hero-common hero-section-1">
       <div className="hero-bg-image mt-2 pt-5">
         <img src={bgCurves} alt="" width="100%"/>
       </div>
@@ -70,4 +70,4 @@ const HeroSection = () => {
   );
 }
 
-export default HeroSection;
+export default HeroSection1;

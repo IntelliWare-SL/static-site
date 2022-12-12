@@ -5,7 +5,7 @@ import ContactDetailsField from "./ContactDetailsField";
 
 const Footer = () => {
   return (
-    <footer className="mt-4 pt-3">
+    <footer className="mt-0 pt-4">
       <Container className="my-4 py-5">
         <Row sm={12} className="justify-content-between pb-2">
           <Col sm={12} md={4} className="footer-section section-border ps-0">
