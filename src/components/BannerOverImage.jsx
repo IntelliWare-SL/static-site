@@ -1,4 +1,4 @@
-import {Col, Row} from "react-bootstrap";
+import {Button, Col, Row} from "react-bootstrap";
 
 const BannerOverImage = ({
                            bannerTitle,
@@ -21,7 +21,7 @@ const BannerOverImage = ({
           <div className="banner-content">
             <h1 className="section-title pb-2">{bannerTitle}</h1>
             <p className="section-subtitle my-4">{bannerContent}</p>
-            <a href={buttonLink} className="btn btn-primary py-3 px-4 my-3">{buttonText}</a>
+            <Button variant="primary" className="my-3">{buttonText}</Button>
           </div>
           <div className={alignBannerRight ? "line float-end" : "line float-start"}></div>
         </div>
