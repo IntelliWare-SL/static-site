@@ -3,7 +3,7 @@ import WhyChooseUsSection from "../components/page-2/WhyChooseUsSection";
 import TeamMembersSection from "../components/page-2/TeamMembersSection";
 import BookMeetingSection from "../components/page-2/BookMeetingSection";
 
-const SecondPage = () => {
+const Page2 = () => {
   return (
     <>
       <HeroSection2/>
@@ -14,4 +14,4 @@ const SecondPage = () => {
   );
 }
 
-export default SecondPage
+export default Page2

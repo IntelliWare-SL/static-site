@@ -2,7 +2,7 @@ import HeroSection3 from "../components/page-3/HeroSection3";
 import OurServicesSection from "../components/page-3/OurServicesSection";
 import OurPartnersSection from "../components/page-3/OurPartnersSection";
 
-const ThirdPage = () => {
+const Page3 = () => {
   return (
     <>
       <HeroSection3/>
@@ -12,4 +12,4 @@ const ThirdPage = () => {
   );
 }
 
-export default ThirdPage
+export default Page3
