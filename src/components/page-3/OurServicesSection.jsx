@@ -38,9 +38,6 @@ const OurServicesSection = () => {
                        listItems={["Social Media", "SEO Optimization", "Paid Media Marketing", "Email Campaigns", "Lead Generation Strategies", "Book a Meeting"]}
           />
         </Row>
-        {/*<Row sm={12} className="card-wrapper pb-2 pt-5 justify-content-center">*/}
-
-        {/*</Row>*/}
       </Container>
     </section>
   );

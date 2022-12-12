@@ -8,3 +8,18 @@
         }
     }
 }
+
+.our-partners-section {
+    background-color: $color-light-bg;
+
+    .section-text {
+        font-weight: 400;
+        color: $color-d3;
+    }
+
+    .partner-logo-bar {
+        .partner-logo {
+            width: 100%;
+        }
+    }
+}
