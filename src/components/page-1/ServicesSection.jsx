@@ -1,6 +1,7 @@
 import {Button, Col, Container, Row} from "react-bootstrap";
 import React from "react";
 import LargeTile from "../common/LargeTile";
+import {Link} from "react-router-dom";
 
 const WhatWeDoSection = () => {
   return (
@@ -11,7 +12,9 @@ const WhatWeDoSection = () => {
             <h2 className="section-title mb-3">Our <br/>Services</h2>
             <p className="section-subtitle mt-4 mb-3">At Reamer Made, we understand that construction can be a tough
               business - but it doesn't have to be. </p>
-            <Button variant="outline-primary py-3 px-4 my-3">Know More</Button>
+            <Button variant="outline-primary" className="my-3 cta-btn-outline">
+              <Link to="/our-services">Know More</Link>
+            </Button>
           </Col>
           <LargeTile title="Strategy" icon={
             <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +41,7 @@ const WhatWeDoSection = () => {
                 </clipPath>
               </defs>
             </svg>
-          } showShadow={true}/>
+          }/>
           <LargeTile title="Media" icon={
             <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clipPath="url(#clip0_9_44)">

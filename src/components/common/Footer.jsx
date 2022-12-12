@@ -2,6 +2,7 @@ import {Button, Col, Container, Row} from "react-bootstrap";
 import brandLogoLong from "../../assets/images/brand-logo-long.png";
 import SocialMediaIcons from "./SocialMediaIcons";
 import ContactDetailsField from "./ContactDetailsField";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -31,7 +32,9 @@ const Footer = () => {
                 <p>We respond to inquiries
                   within 48 hours</p>
               </div>
-              <Button variant="primary" className="my-2">Send Inquiry</Button>
+              <Button variant="primary" className="my-2 cta-btn">
+                <Link to="/contact-us">Send Inquiry</Link>
+              </Button>
             </div>
           </Col>
           <Col sm={12} md={4} className="footer-section">

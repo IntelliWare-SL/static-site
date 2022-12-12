@@ -1,6 +1,7 @@
 import React from 'react';
 import {Button, Col, Container, Row} from "react-bootstrap";
 import bgCurves from "../../assets/images/bg-curves.png";
+import {Link} from "react-router-dom";
 
 const HeroSection2 = () => {
   return (
@@ -12,7 +13,7 @@ const HeroSection2 = () => {
         <Row className="m-0 p-0 pt-5 h-100">
           <Col sm={12} md={6} className="hero-left pe-5 h-100">
             <section className="hero-content">
-              <h6 className="breadcrumbs">Home/About Us</h6>
+              <h6 className="breadcrumbs">Home / About Us</h6>
               <h1 className="text-white hero-title py-2">We're Not Afraid
                 <br/>
                 Of <span>A Little Dirt</span></h1>
@@ -33,8 +34,9 @@ const HeroSection2 = () => {
                   tap into its potential for growth.
                 </p>
               </div>
-
-              <Button variant="primary" className="hero-button px-5 py-2 me-2 mt-2">Contact Us</Button>
+              <Button variant="primary" className="hero-button px-5 py-2 me-2">
+                <Link to="/contact-us">Contact Us</Link>
+              </Button>
             </section>
           </Col>
           <Col sm={12} md={6} className="hero-right ps-5 h-100">

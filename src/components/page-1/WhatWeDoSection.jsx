@@ -1,6 +1,7 @@
 import {Button, Col, Container, Row} from "react-bootstrap";
 import Tile from "../common/Tile";
 import React from "react";
+import {Link} from "react-router-dom";
 
 const WhatWeDoSection = () => {
   return (
@@ -126,8 +127,9 @@ const WhatWeDoSection = () => {
               At Reamer Made, we understand that construction can be a tough business - but it doesn't have to be. We
               are dedicated to helping you tell your story and branding yourself in the industry.
             </p>
-            <Button variant="outline-primary" className="border-primary text-primary cta-btn my-4 w-25">Know
-              More</Button>
+            <Button variant="outline-primary" className="my-4 cta-btn-outline me-auto">
+              <Link to="/about-us">Know More</Link>
+            </Button>
           </Col>
         </Row>
       </Container>

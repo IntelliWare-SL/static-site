@@ -1,4 +1,6 @@
 import {Button, Col, Row} from "react-bootstrap";
+import {Link} from "react-router-dom";
+import React from "react";
 
 const BannerOverImage = ({
                            bannerTitle,
@@ -21,7 +23,9 @@ const BannerOverImage = ({
           <div className="banner-content">
             <h1 className="section-title pb-2">{bannerTitle}</h1>
             <p className="section-subtitle my-4">{bannerContent}</p>
-            <Button variant="primary" className="my-3">{buttonText}</Button>
+            <Button variant="primary" className="my-3 cta-btn">
+              <Link to={buttonLink}>{buttonText}</Link>
+            </Button>
           </div>
           <div className={alignBannerRight ? "h-line float-end" : "h-line float-start"}></div>
         </div>

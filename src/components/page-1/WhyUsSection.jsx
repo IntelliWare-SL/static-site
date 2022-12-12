@@ -11,7 +11,7 @@ const WhyUsSection = () => {
                          doesn't have to be. We are dedicated to helping you tell your story and branding yourself in the
                          industry."
                          buttonText="Know More"
-                         buttonLink="#"
+                         buttonLink="/about-us"
                          imageUrl="https://www.sircapaints.com/wp-content/uploads/2021/07/exterior2.jpg"
                          altText="3D rendering of a modern house"
                          alignBannerRight={true}/>
