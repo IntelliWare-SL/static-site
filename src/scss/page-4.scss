@@ -1,0 +1,65 @@
+.hero-section-4 {
+    height: fit-content;
+
+    .hero-content {
+        .arrow-wrapper {
+            margin-top: -40px !important;
+        }
+
+        .hero-text {
+            .followers-card {
+                margin-left: 12px;
+                margin-top: -24px;
+            }
+        }
+    }
+
+    .hero-right {
+        height: fit-content;
+
+        .image-wrapper {
+            width: 100%;
+            height: 520px;
+        }
+    }
+}
+
+.our-partners-section {
+    background-color: $color-light-bg;
+
+    .section-text {
+        font-weight: 400;
+        color: $color-d3;
+    }
+
+    .partner-logo-bar {
+        .partner-logo {
+            width: 100%;
+        }
+    }
+}
+
+.contact-us-section-2 {
+    .section-title {
+        color: $color-d2;
+        font-weight: 700 !important;
+    }
+
+    .contact-details-field {
+        svg {
+            height: 36px !important;
+        }
+
+        .contact-details-wrapper {
+            span, a {
+                font-size: 1.4rem;
+                font-weight: 400;
+                color: $color-d3;
+            }
+
+            a:hover, a:focus, a:active {
+                color: $color-cta;
+            }
+        }
+    }
+}
