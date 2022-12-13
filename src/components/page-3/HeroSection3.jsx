@@ -4,11 +4,11 @@ import bgCurves from "../../assets/images/bg-curves.png";
 
 const HeroSection3 = () => {
   return (
-    <section className="hero-common hero-section-2 hero-section-3">
+    <section className="hero-common-2 hero-section-3">
       <div className="hero-bg-image pt-5">
         <img src={bgCurves} alt="" width="100%"/>
       </div>
-      <Container className="px-0 pt-5 pb-4">
+      <Container className="px-0 pt-5 pb-5">
         <Row className="m-0 p-0 pt-5">
           <Col sm={12} md={6} className="hero-left pe-5 h-100">
             <section className="hero-content">
