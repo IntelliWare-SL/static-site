@@ -34,14 +34,17 @@ label {
     padding-bottom: 5px;
 }
 
-input {
+input, select {
     border-radius: 0 !important;
     border: 1px solid $color-d4;
     height: 55px;
+    width: 100%;
 }
 
 textarea {
     border-radius: 0 !important;
+    border: 1px solid $color-d4;
+    width: 100%;
 }
 
 a {
@@ -64,3 +67,4 @@ button {
 @import "scss/page-1";
 @import "scss/page-2";
 @import "scss/page-3";
+@import "scss/page-4";

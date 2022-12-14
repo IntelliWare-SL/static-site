@@ -1,10 +1,18 @@
 .hero-section-3 {
-    min-height: unset !important;
-    height: fit-content !important;
+    height: fit-content;
 
     .hero-content {
         .arrow-wrapper {
             margin-top: -40px !important;
+        }
+    }
+
+    .hero-right {
+        height: fit-content;
+
+        .image-wrapper {
+            width: 100%;
+            height: 520px;
         }
     }
 }

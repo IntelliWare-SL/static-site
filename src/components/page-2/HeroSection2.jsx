@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 const HeroSection2 = () => {
   return (
-    <section className="hero-common hero-section-2">
+    <section className="hero-common-2 hero-section-2">
       <div className="hero-bg-image pt-5">
         <img src={bgCurves} alt="" width="100%"/>
       </div>
