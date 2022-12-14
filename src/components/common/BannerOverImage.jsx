@@ -1,6 +1,6 @@
-import {Button, Col, Row} from "react-bootstrap";
-import {Link} from "react-router-dom";
+import {Col, Row} from "react-bootstrap";
 import React from "react";
+import CustomButton from "./CustomButton";
 
 const BannerOverImage = ({
                            bannerTitle,
@@ -21,11 +21,11 @@ const BannerOverImage = ({
       <Col sm={12} className="px-0 text-white banner-wrapper">
         <div className={alignBannerRight ? "banner float-end" : "banner float-start"}>
           <div className="banner-content">
-            <h1 className="section-title pb-2">{bannerTitle}</h1>
+            <h1 className="section-title pb-3">{bannerTitle}</h1>
             <p className="section-subtitle my-4">{bannerContent}</p>
-            <Button variant="primary" className="my-3 cta-btn">
-              <Link to={buttonLink}>{buttonText}</Link>
-            </Button>
+            <div className="pt-4 pb-3">
+              <CustomButton link={buttonLink} text={buttonText}/>
+            </div>
           </div>
           <div className={alignBannerRight ? "h-line float-end" : "h-line float-start"}></div>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
-import {Button, Col, Container, Form, Row} from "react-bootstrap";
+import {Col, Container, Form, Row} from "react-bootstrap";
+import CustomButton from "../common/CustomButton";
 
 const BookMeetingSection = () => {
   return (
@@ -78,8 +79,8 @@ const BookMeetingSection = () => {
                 </Col>
               </Row>
               <Row className="justify-content-center mb-1">
-                <Col sm={12} md={6}>
-                  <Button variant="primary" className="mt-3 mb-3 w-75">Book Now</Button>
+                <Col sm={12} md={6} className="my-3">
+                  <CustomButton text={"Book Now"} showIcon={false} customClasses={"w-100 d-block text-center"}/>
                 </Col>
               </Row>
             </Form>

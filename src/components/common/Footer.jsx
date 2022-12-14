@@ -1,8 +1,8 @@
-import {Button, Col, Container, Row} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import brandLogoLong from "../../assets/images/brand-logo-long.png";
 import SocialMediaIcons from "./SocialMediaIcons";
 import ContactDetailsField from "./ContactDetailsField";
-import {Link} from "react-router-dom";
+import CustomButton from "./CustomButton";
 
 const Footer = () => {
   return (
@@ -28,13 +28,11 @@ const Footer = () => {
                   <br/>
                   <span>Use our online form.</span></h5>
               </div>
-              <div className="section-2-text py-2 w-75">
-                <p>We respond to inquiries
+              <div className="section-2-text pt-2 pb-3 w-75">
+                <p className="pb-3">We respond to inquiries
                   within 48 hours</p>
               </div>
-              <Button variant="primary" className="my-2 cta-btn">
-                <Link to="/contact-us">Send Inquiry</Link>
-              </Button>
+              <CustomButton link={"/contact-us"} text={"Send Inquiry"} customClasses={"my-4"}/>
             </div>
           </Col>
           <Col sm={12} md={4} className="footer-section">

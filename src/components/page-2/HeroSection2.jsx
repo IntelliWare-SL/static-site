@@ -1,7 +1,7 @@
 import React from 'react';
-import {Button, Col, Container, Row} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import bgCurves from "../../assets/images/bg-curves.png";
-import {Link} from "react-router-dom";
+import CustomButton from "../common/CustomButton";
 
 const HeroSection2 = () => {
   return (
@@ -28,21 +28,19 @@ const HeroSection2 = () => {
                   and
                   marketing to help other companies in this industry.
                 </p>
-                <p className="py-2">
+                <p className=" m-0 pb-5">
                   By specializing in web development, digital marketing, and defining your brand – Reamer Made’s goal is
                   to help bridge the gap between the construction industry and technology. We want to help your company
                   tap into its potential for growth.
                 </p>
               </div>
-              <Button variant="primary" className="hero-button px-5 py-2 me-2">
-                <Link to="/contact-us">Contact Us</Link>
-              </Button>
+              <CustomButton text={"Learn More"} link={"/about-us"} customClasses={"btn-lg"}/>
             </section>
           </Col>
           <Col sm={12} md={6} className="hero-right ps-5 h-100">
             <div className="mb-3">
               <div className="v-line float-start"/>
-              <div className="image-wrapper">
+              <div className="media-wrapper">
                 <img
                   src="https://img.freepik.com/free-photo/positive-business-partners-meeting-office-building-shaking-hands-with-each-other-side-view-medium-shot-corporate-communication-handshake-concept_74855-7728.jpg?w=2000"
                   width="100%" height="100%" alt=""/>

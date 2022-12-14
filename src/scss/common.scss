@@ -15,22 +15,43 @@
 }
 
 // Buttons
-.cta-btn, .cta-btn-outline {
+.custom-btn, .custom-btn-outline {
     font-weight: 600 !important;
-    padding: 16px 24px 16px 24px !important;
+    padding: 16px 24px 16px 24px;
 }
 
-.cta-btn-outline a {
-    color: $color-cta;
-}
-
-.cta-btn-outline:hover a {
-    color: black;
-}
-
-.cta-btn {
+.custom-btn {
     color: white;
+    background-color: $color-cta;
 }
+
+.custom-btn:hover {
+    color: white;
+    background-color: darken($color-cta, 20%);
+}
+
+.custom-btn-outline {
+    color: white;
+    background-color: transparent;
+    border: 1.2px solid white;
+}
+
+
+.custom-btn-outline:hover {
+    color: white;
+    background-color: $color-cta;
+    border: 1.2px solid $color-cta;
+}
+
+.custom-btn span.with-spacing {
+    margin-left: 12px;
+}
+
+.custom-btn.btn-lg {
+    padding: 18px 26px 18px 26px;
+    font-size: 1.2em;
+}
+
 
 // Navbar
 .navbar {
@@ -55,25 +76,6 @@
             font-weight: 600;
             text-decoration: underline !important;
             color: $color-cta;
-        }
-    }
-
-    .cta-btn-outline {
-
-        a {
-            color: white;
-        }
-
-        a:hover, a:focus {
-            color: unset;
-        }
-    }
-
-    .cta-btn-outline:hover {
-        border-color: $color-cta !important;
-
-        a {
-            color: black;
         }
     }
 
@@ -117,8 +119,6 @@
             }
         }
     }
-
-
 }
 
 // Social media icons component
@@ -159,8 +159,13 @@
         color: $color-d3;
     }
 
-    a:hover {
+    a {
+        color: $color-cta;
         text-decoration: underline;
+    }
+
+    a:hover {
+        color: darken($color-cta, 20%) !important;
     }
 }
 
@@ -216,6 +221,7 @@
         width: 540px;
 
         .banner-content {
+            height: 100%;
             padding: 56px 40px 56px 68px;
         }
 
@@ -236,6 +242,17 @@
     font-family: 'Source Serif Pro', serif;
     font-size: 1.2rem;
     line-height: 1.6;
+}
+
+.hero-right {
+    .media-wrapper {
+        width: 100%;
+        height: 100%;
+
+        img, video {
+            object-fit: cover;
+        }
+    }
 }
 
 .hero-common-1 {
@@ -330,17 +347,6 @@
             font-size: 1.2rem;
             font-weight: 600;
             height: 68px;
-        }
-    }
-
-    .hero-right {
-        .image-wrapper {
-            width: 100%;
-            height: 100%;
-
-            img {
-                object-fit: cover;
-            }
         }
     }
 

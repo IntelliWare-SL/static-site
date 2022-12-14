@@ -1,7 +1,8 @@
 import React from 'react';
-import {Button, Container, Nav, Navbar} from "react-bootstrap";
+import {Container, Nav, Navbar} from "react-bootstrap";
 import {Link, NavLink} from "react-router-dom";
 import NavbarOptions from "./NavbarOptions";
+import CustomButton from "./CustomButton";
 
 const CustomNavbar = () => {
   return (
@@ -25,14 +26,13 @@ const CustomNavbar = () => {
             </svg>
           </Link>
         </Navbar.Brand>
-        <Nav className="mx-auto gap-3">
+        <Nav className="mx-auto gap-4">
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about-us">About Us</NavLink>
           <NavLink to="/our-services">Our Services</NavLink>
+          <NavLink to="/our-projects">Our Projects</NavLink>
         </Nav>
-        <Button variant="outline-primary" className="cta-btn-outline text-white border-white">
-          <Link to="/contact-us">Contact Us</Link>
-        </Button>
+        <CustomButton link={"/contact-us"} text={"Contact Us"} filled={false} showIcon={false}/>
       </Container>
     </Navbar>
   );
