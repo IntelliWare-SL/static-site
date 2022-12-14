@@ -1,7 +1,6 @@
-import {Button, Col, Container, Row} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import React from "react";
 import LargeTile from "../common/LargeTile";
-import {Link} from "react-router-dom";
 
 const WhatWeDoSection = () => {
   return (
@@ -10,11 +9,10 @@ const WhatWeDoSection = () => {
         <Row className="gap-3 justify-content-between">
           <Col sm={4} className="px-0 py-5 large-tile">
             <h2 className="section-title mb-3">Our <br/>Services</h2>
-            <p className="section-subtitle mt-4 mb-3">At Reamer Made, we understand that construction can be a tough
-              business - but it doesn't have to be. </p>
-            <Button variant="outline-primary" className="my-3 cta-btn-outline">
-              <Link to="/our-services">Know More</Link>
-            </Button>
+            <p className="section-subtitle mt-4 mb-3">Our marketing and design services are tailored to help you
+              succeed, whether you're an independent contractor or working on a massive civil construction project,
+              we’re dedicated to helping you tell your story. So whatever stage of construction you're in, Reamer Made
+              is here to help your business grow.</p>
           </Col>
           <LargeTile title="Strategy" icon={
             <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">

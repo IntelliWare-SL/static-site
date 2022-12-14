@@ -102,8 +102,8 @@
 }
 
 .p-inputtext:enabled:focus, input:enabled:focus, textarea:enabled:focus {
-    border: 1.2px solid lighten($color-cta, 15%);
-    box-shadow: 0 0 0 .2rem lighten($color-cta, 35%);
+    border: 1.2px solid lighten($color-cta, 3%);
+    box-shadow: 0 0 0 .2rem lighten($color-cta, 30%);
     outline: 0 none;
     outline-offset: 0
 }
@@ -241,7 +241,8 @@ textarea.p-inputtext, textarea {
 }
 
 .p-multiselect-panel .p-multiselect-header .p-multiselect-close:focus {
-    box-shadow: 0 0 0 .2rem lighten($color-cta, 35%);
+    border: 1.2px solid lighten($color-cta, 3%);
+    box-shadow: 0 0 0 .2rem lighten($color-cta, 30%);
     outline: 0 none;
     outline-offset: 0
 }

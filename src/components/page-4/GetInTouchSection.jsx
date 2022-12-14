@@ -1,8 +1,9 @@
 import React, {useState} from "react";
-import {Button, Col, Container, Form, Row} from "react-bootstrap";
+import {Col, Container, Form, Row} from "react-bootstrap";
 import {InputText} from 'primereact/inputtext';
 import {MultiSelect} from 'primereact/multiselect';
 import {InputTextarea} from "primereact/inputtextarea";
+import CustomButton from "../common/CustomButton";
 
 const GetInTouchSection = () => {
   const [formData, setFormData] = useState({
@@ -120,8 +121,8 @@ const GetInTouchSection = () => {
               </Col>
             </Row>
             <Row className="justify-content-center mb-1">
-              <Col sm={12} md={6}>
-                <Button variant="primary" className="mt-3 mb-3 w-75">Book Now</Button>
+              <Col sm={12} md={6} className="py-3">
+                <CustomButton text={"Submit"} showIcon={false} customClasses={"w-100 d-block text-center"}/>
               </Col>
             </Row>
           </Form>

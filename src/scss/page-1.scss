@@ -10,58 +10,64 @@
 .hero-section-1 {
     height: 100%;
 
-    .hero-content {
+    .custom-btn {
+        padding: 18px 26px 18px 26px;
+        font-size: 1.2em;
+    }
 
-        button.play-button {
-            z-index: 10;
-            outline: none;
-            background: none;
-            border: none;
-            padding: 0;
-            margin: 0;
+    button.play-button {
+        z-index: 10;
+        outline: none;
+        background: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .play-button-icon {
+        z-index: 10;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-radius: 50%;
+        background-color: $color-p1;
+        width: 68px;
+        height: 68px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            background-color: $color-d2;
         }
 
-        .play-button-icon {
-            z-index: 10;
-            cursor: pointer;
+        svg {
             transition: all 0.3s ease;
-            border-radius: 50%;
-            background-color: $color-p1;
-            width: 68px;
-            height: 68px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
+            width: 42px;
+            height: 42px;
+            fill: $color-p1-shade;
+        }
 
-            &:hover {
-                background-color: $color-d2;
-            }
-
-            svg {
-                transition: all 0.3s ease;
-                width: 42px;
-                height: 42px;
-                fill: $color-p1-shade;
-            }
-
-            &:hover {
-                fill: $color-cta-shade;
-            }
+        &:hover svg {
+            fill: $color-red-shade;
         }
     }
 
     .hero-right {
         bottom: 0;
         right: 0;
+
+        .media-wrapper {
+            padding-top: 125px;
+        }
     }
 
-    .hero-right .image-wrapper img {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-        width: 92%;
-    }
+    //.hero-right .media-wrapper img {
+    //    position: absolute;
+    //    right: 0;
+    //    bottom: 0;
+    //    margin: auto;
+    //    width: 92%;
+    //}
 
     .overlay-row {
         margin-top: -280px !important;
@@ -131,8 +137,9 @@
 // Services section
 .services-section {
     .section-subtitle {
+        font-family: 'Outfit', sans-serif;
         font-size: 1.15rem;
-        font-family: 'Source Serif Pro', serif;
+        color: $color-d2
     }
 
     .container .row {

@@ -1,8 +1,8 @@
 import React from 'react';
-import {Button, Col, Container, Row} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import bgCurves from "../../assets/images/bg-curves.png";
 import followersCard from "../../assets/images/followers-card.png";
-import {Link} from "react-router-dom";
+import CustomButton from "../common/CustomButton";
 
 const HeroSection4 = () => {
   return (
@@ -22,7 +22,7 @@ const HeroSection4 = () => {
                 ground?</h1>
               <Row className="hero-text pt-3 pb-4">
                 <Col sm={12} md={8}>
-                  <p className="pt-1 pb-2">
+                  <p className=" m-0 pt-1 pb-5">
                     Just like reamers, our services come in a variety of shapes and sizes. Contact us to learn more.
                   </p>
                 </Col>
@@ -30,9 +30,7 @@ const HeroSection4 = () => {
                   <img src={followersCard} width="100%" alt="" className="followers-card"/>
                 </Col>
               </Row>
-              <Button variant="primary" className="hero-button px-5 py-2 me-2">
-                <Link to="/about-us">Learn More</Link>
-              </Button>
+              <CustomButton text={"Learn More"} link={"/about-us"} customClasses={"btn-lg"}/>
               <div className="arrow-wrapper float-end pe-5">
                 <svg width="168" height="175" viewBox="0 0 168 175" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
@@ -48,7 +46,7 @@ const HeroSection4 = () => {
           <Col sm={12} md={6} className="hero-right ps-5 h-100">
             <div className="mb-3">
               <div className="v-line float-start"/>
-              <div className="image-wrapper">
+              <div className="media-wrapper">
                 <img
                   src="https://img.freepik.com/free-photo/successful-business-man-signing-documents-modern-office_158595-5381.jpg?w=2000&t=st=1670876754~exp=1670877354~hmac=7b2ba79bb1f491dea1777a8e1e006e849207a9503ff227191cf87ae5f097286f"
                   width="100%" height="100%" alt=""/>

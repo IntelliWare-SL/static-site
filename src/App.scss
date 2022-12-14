@@ -21,15 +21,15 @@ body {
     background-color: white !important;
 }
 
-button, .btn {
-    font-weight: 600 !important;
-    border-radius: 0 !important;
-}
-
-button.btn {
-    padding: 12px 24px;
-    font-size: 1.1rem;
-}
+//button, .btn, a.custom-btn {
+//    font-weight: 600 !important;
+//    border-radius: 0 !important;
+//}
+//
+//button.btn, a.custom-btn  {
+//    padding: 12px 24px;
+//    font-size: 1.1rem;
+//}
 
 h1, h2 {
     font-family: 'PT Serif', serif !important;
@@ -64,8 +64,8 @@ a:hover, a:focus {
     color: $color-cta;
 }
 
-button {
-    a:hover, a:focus {
-        color: unset;
-    }
-}
+//button {
+//    a:hover, a:focus {
+//        color: unset;
+//    }
+//}

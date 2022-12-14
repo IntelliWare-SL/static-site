@@ -1,7 +1,7 @@
 const TeamMemberCard = ({name, role, imgUrl}) => {
   return (
     <div className="team-member-card">
-      <div className="image-wrapper">
+      <div className="media-wrapper">
         <img src={imgUrl} width="100%" height="100%" alt=""/>
       </div>
       <h3 className="member-name mt-2 pt-2 mb-0">{name}</h3>

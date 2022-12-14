@@ -43,7 +43,7 @@ const HeroSection3 = () => {
           <Col sm={12} md={6} className="hero-right ps-5 h-100">
             <div className="mb-3">
               <div className="v-line float-start"/>
-              <div className="image-wrapper">
+              <div className="media-wrapper">
                 <img
                   src="https://img.freepik.com/free-photo/positive-business-partners-meeting-office-building-shaking-hands-with-each-other-side-view-medium-shot-corporate-communication-handshake-concept_74855-7728.jpg?w=2000"
                   width="100%" height="100%" alt=""/>
