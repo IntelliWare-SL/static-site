@@ -28,6 +28,10 @@
     color: black;
 }
 
+.cta-btn {
+    color: white;
+}
+
 // Navbar
 .navbar {
     background-color: $color-dark-bg !important;
@@ -122,6 +126,15 @@
     height: 70px;
     width: 210px;
     background-color: $color-dark-bg;
+
+    svg {
+        fill: white;
+    }
+}
+
+.social-media-icons .icon-container a:hover svg {
+    transition: fill 0.3s ease;
+    fill: $color-cta
 }
 
 // Tile component
@@ -472,11 +485,17 @@ footer {
     }
 
     .section-border {
-        border-right: 0.6px solid $footer-section-border-color;
+        border-right: 0.6px solid $color-red-shade;
     }
 
     .contact-details-wrapper {
         color: $color-d4;
+    }
+
+    .contact-icon-wrapper {
+        svg {
+            fill: $color-cta;
+        }
     }
 
     .copyright-bar {
