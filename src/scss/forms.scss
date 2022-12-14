@@ -88,7 +88,7 @@
     background-color: $color-d6
 }
 
-.p-inputtext {
+.p-inputtext, input, textarea {
     appearance: none;
     background: #fff;
     border: 1.2px solid $color-d4;
@@ -101,15 +101,15 @@
     width: 100%
 }
 
-textarea.p-inputtext {
-    height: unset;
-}
-
-.p-inputtext:enabled:focus {
+.p-inputtext:enabled:focus, input:enabled:focus, textarea:enabled:focus {
     border: 1.2px solid lighten($color-cta, 15%);
     box-shadow: 0 0 0 .2rem lighten($color-cta, 35%);
     outline: 0 none;
     outline-offset: 0
+}
+
+textarea.p-inputtext, textarea {
+    height: unset;
 }
 
 .p-inputwrapper-filled.p-multiselect.p-multiselect-clearable .p-multiselect-label {

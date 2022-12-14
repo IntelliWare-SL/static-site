@@ -5,7 +5,7 @@ import TeamMemberCard from "../common/TeamMemberCard";
 const TeamMembersSection = () => {
   return (
     <section className="team-members-section pt-1 px-5 pb-3">
-      <Container className="py-5 px-5">
+      <Container className="pt-4 pb-5 px-5">
         <Row sm={12} className="justify-content-center text-center pt-4 pb-4">
           <Col sm={12}>
             <h2 className="section-title mb-2">Meet Our Team<br/>Members</h2>

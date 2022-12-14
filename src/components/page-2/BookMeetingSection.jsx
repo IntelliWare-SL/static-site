@@ -5,12 +5,12 @@ const BookMeetingSection = () => {
   return (
     <section className="book-meeting-section pt-1 px-5 pb-3">
       <Container className="py-2 px-5">
-        <Row sm={12} className="justify-content-center text-center pt-4 pb-4">
+        <Row sm={12} className="justify-content-center text-center pt-4 pb-3">
           <Col sm={12}>
             <h2 className="section-title mb-4">Book A Meeting</h2>
           </Col>
         </Row>
-        <Row sm={12} className="card-wrapper py-3 my-3 justify-content-center gap-5">
+        <Row sm={12} className="card-wrapper py-3 my-2 justify-content-center gap-5">
           <Col sm={12} md={10}>
             <Form>
               <Row className="mb-2">
