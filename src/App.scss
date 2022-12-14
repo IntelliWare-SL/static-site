@@ -4,6 +4,13 @@
 // Google fonts
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=PT+Serif:wght@400;700&family=Source+Serif+Pro&display=swap');
 
+@import "scss/common";
+@import "scss/forms";
+@import "scss/page-1";
+@import "scss/page-2";
+@import "scss/page-3";
+@import "scss/page-4";
+
 * {
     margin: 0;
     padding: 0;
@@ -34,12 +41,12 @@ label {
     padding-bottom: 5px;
 }
 
-input, select {
-    border-radius: 0 !important;
-    border: 1px solid $color-d4;
-    height: 55px;
-    width: 100%;
-}
+//input, select {
+//    //border-radius: 0 !important;
+//    border: 1px solid $color-d4;
+//    height: 56px;
+//    width: 100%;
+//}
 
 textarea {
     border-radius: 0 !important;
@@ -62,9 +69,3 @@ button {
         color: unset;
     }
 }
-
-@import "scss/common";
-@import "scss/page-1";
-@import "scss/page-2";
-@import "scss/page-3";
-@import "scss/page-4";
