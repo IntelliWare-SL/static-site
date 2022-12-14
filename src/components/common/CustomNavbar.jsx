@@ -1,18 +1,13 @@
 import React from 'react';
 import {Button, Container, Nav, Navbar} from "react-bootstrap";
 import {Link, NavLink} from "react-router-dom";
+import NavbarOptions from "./NavbarOptions";
 
 const CustomNavbar = () => {
   return (
     <Navbar bg="dark" variant="dark" className="py-3">
       <Container className="my-1">
-        {/*<Navbar.Toggle />*/}
-        <Button id="navbar-options-toggle-btn">
-          <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.625 2.125H26.375M1.625 10H26.375M1.625 17.875H14" stroke="white" strokeWidth="2.5"
-                  strokeLinecap="round" strokeLinejoin="round"/>
-          </svg>
-        </Button>
+        <NavbarOptions/>
         <Navbar.Brand className="mx-4">
           <Link to="/">
             <svg width="57" height="40" viewBox="0 0 57 40" fill="none" xmlns="http://www.w3.org/2000/svg">
