@@ -44,8 +44,8 @@
                 fill: $color-p1-shade;
             }
 
-            &:hover {
-                fill: $color-cta-shade;
+            &:hover svg {
+                fill: $color-red-shade;
             }
         }
     }
