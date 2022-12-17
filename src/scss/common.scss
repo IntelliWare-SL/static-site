@@ -1,3 +1,5 @@
+//@import "include-media/dist/_include-media.scss";
+
 // Components
 
 // Horizontal and vertical line components
@@ -59,7 +61,7 @@
     border-bottom: 0.8px solid #DADADA;
     position: fixed;
     width: 100%;
-    z-index: 12;
+    z-index: 12; // z-index of navbar is 12
     height: 90px !important;
 
     .navbar-nav {
@@ -124,13 +126,22 @@
 // Social media icons component
 .social-media-icons .icon-container {
     justify-content: space-evenly;
-    height: 70px;
-    width: 210px;
     background-color: $color-dark-bg;
 
-    svg {
-        fill: white;
+    a {
+        color: white;
+        font-size: 16px;
+        margin: 4px 8px;
+
+        @media (min-width: $md) {
+            margin: 6px 12px;
+            font-size: 24px;
+        }
     }
+}
+
+.social-media-icons {
+    margin-bottom: 16px;
 }
 
 .social-media-icons .icon-container a:hover svg {
@@ -244,31 +255,76 @@
     line-height: 1.6;
 }
 
-.hero-right {
-    .media-wrapper {
-        width: 100%;
-        height: 100%;
-
-        img, video {
-            object-fit: cover;
-        }
-    }
-}
-
 .hero-common-1 {
     background-color: $color-dark-bg;
-    height: 100vh !important;
+    position: relative;
+    min-height: 100vh;
+    height: fit-content;
     z-index: 5;
+
+    .custom-btn {
+        padding: 14px 22px 14px 22px;
+        font-size: 1.05em;
+
+        @media (min-width: $md) {
+            padding: 18px 26px 18px 26px;
+            font-size: 1.2em;
+        }
+    }
 
     .row {
         height: 100%;
     }
 
+    .hero-left {
+        padding-top: 90px;
+
+        @media (min-width: $md) {
+            min-height: 100vh;
+        }
+    }
+
+    .hero-right {
+        position: relative;
+
+        @media (min-width: $md) {
+            position: absolute;
+        }
+
+        .media-wrapper {
+            width: 100%;
+            height: 100%;
+
+            img, video {
+                object-fit: cover;
+                height: unset;
+                width: 200%;
+
+                @media (min-width: $md) {
+                    width: unset;
+                    height: 100%;
+
+                }
+            }
+        }
+    }
+
     .hero-content {
+        text-align: center;
+
+        @media (min-width: $md) {
+            text-align: left;
+
+        }
 
         .hero-title {
             text-transform: capitalize;
-            font-size: 4rem;
+            font-size: 2.5rem;
+
+            @media (min-width: $md) {
+                font-size: 4rem;
+
+            }
 
             span {
                 display: inline-block;
@@ -285,8 +341,12 @@
         }
 
         .hero-subtitle {
-            font-size: 1.2rem;
+            font-size: 1.05rem;
             line-height: 1.6;
+
+            @media (min-width: $md) {
+                font-size: 1.2rem;
+            }
         }
 
         .hero-button {
@@ -469,6 +529,10 @@ footer {
         }
     }
 
+    .footer-section {
+        text-align: center;
+    }
+
     .brand-logo {
     }
 
@@ -483,16 +547,13 @@ footer {
     }
 
     .section-2-text {
+        width: 100%;
         font-size: 1rem;
         color: $color-d4;
     }
 
-    .footer-section {
-        padding: 0 105px;
-    }
-
     .section-border {
-        border-right: 0.6px solid $color-red-shade;
+        border-bottom: 0.6px solid $color-red-shade;
     }
 
     .contact-details-wrapper {
@@ -507,5 +568,39 @@ footer {
 
     .copyright-bar {
         background-color: $color-d2;
+        text-align: center;
+    }
+}
+
+@media (min-width: $md) {
+
+    footer {
+        .footer-section {
+            text-align: left !important;
+            padding: 0 3em !important;
+        }
+
+        .section-border {
+            border: unset;
+            border-right: 0.6px solid $color-red-shade;
+        }
+
+        .section-2-text {
+            width: 75%;
+        }
+
+        .copyright-bar {
+            text-align: left;
+        }
+    }
+
+}
+
+@media (min-width: $lg) {
+
+    footer {
+        .footer-section {
+            padding: 0 5em !important;
+        }
     }
 }
