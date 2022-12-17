@@ -2,7 +2,7 @@ import React from "react";
 
 const SocialMediaIcons = () => {
   return (
-    <div className="social-media-icons">
+    <div className="social-media-icons d-inline-block">
       <div className="icon-container d-flex align-items-center pb-1 px-1">
         <a href="https://facebook.com">
           <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">

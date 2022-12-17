@@ -34,13 +34,13 @@ const ContactDetailsField = ({type, icon, line1, line2}) => {
 
 
   return (
-    <Row sm={12} className="contact-details-field justify-content-start align-items-center mb-4">
-      <Col sm={2} className="px-0 text-center">
+    <Row xs={12} className="contact-details-field justify-content-start align-items-center mb-4">
+      <Col xs={2} className="px-0 text-center">
         <div className="contact-icon-wrapper h-100 w-100">
           {icon}
         </div>
       </Col>
-      <Col sm={10}>
+      <Col xs={10}>
         <div className="contact-details-wrapper p-0 ps-1 text-start">
           {renderLines(type, line1, line2)}
         </div>

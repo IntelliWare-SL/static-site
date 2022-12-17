@@ -1,3 +1,5 @@
+//@import "include-media/dist/_include-media.scss";
+
 // Components
 
 // Horizontal and vertical line components
@@ -59,7 +61,7 @@
     border-bottom: 0.8px solid #DADADA;
     position: fixed;
     width: 100%;
-    z-index: 12;
+    z-index: 12; // z-index of navbar is 12
     height: 90px !important;
 
     .navbar-nav {
@@ -469,6 +471,10 @@ footer {
         }
     }
 
+    .footer-section {
+        text-align: center;
+    }
+
     .brand-logo {
     }
 
@@ -483,16 +489,13 @@ footer {
     }
 
     .section-2-text {
+        width: 100%;
         font-size: 1rem;
         color: $color-d4;
     }
 
-    .footer-section {
-        padding: 0 105px;
-    }
-
     .section-border {
-        border-right: 0.6px solid $color-red-shade;
+        border-bottom: 0.6px solid $color-red-shade;
     }
 
     .contact-details-wrapper {
@@ -507,5 +510,39 @@ footer {
 
     .copyright-bar {
         background-color: $color-d2;
+        text-align: center;
+    }
+}
+
+@media (min-width: $md) {
+
+    footer {
+        .footer-section {
+            text-align: left !important;
+            padding: 0 3em !important;
+        }
+
+        .section-border {
+            border: unset;
+            border-right: 0.6px solid $color-red-shade;
+        }
+
+        .section-2-text {
+            width: 75%;
+        }
+
+        .copyright-bar {
+            text-align: left;
+        }
+    }
+
+}
+
+@media (min-width: $lg) {
+
+    footer {
+        .footer-section {
+            padding: 0 5em !important;
+        }
     }
 }
