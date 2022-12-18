@@ -3,7 +3,7 @@ import React from "react";
 
 const ServiceCard = ({cardTitle, cardText, cardImageUrl, listItems}) => {
   return (
-    <Col sm={12} md={6} lg={4} className="my-5">
+    <Col sm={12} md={6} lg={4} className="my-3 my-md-4">
       {/*<div className="v-line-wrapper v-line-left justify-content-end position-absolute">*/}
       {/*  <div className="v-line"/>*/}
       {/*</div>*/}

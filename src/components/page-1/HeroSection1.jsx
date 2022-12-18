@@ -20,7 +20,7 @@ const HeroSection1 = () => {
                 Make You Look
                 Good.
               </h1>
-              <h5 className="text-white hero-subtitle py-2 py-md-4 fw-normal pe-0 pe-md-5 me-md-5">
+              <h5 className="text-white hero-subtitle py-1 py-sm-2 py-md-4 fw-normal pe-0 pe-md-5 me-md-5">
                 A marketing firm that's truly made from the ground up.
                 We know the construction industry inside and out,
                 and we're here to help your business grow.
@@ -39,7 +39,7 @@ const HeroSection1 = () => {
             {/*    </svg>*/}
             {/*  </div>*/}
             {/*</Button>*/}
-            <div className="media-wrapper overflow-hidden">
+            <div className="media-wrapper-full overflow-hidden">
               <video autoPlay loop muted>
                 <source src={sampleIntro} type="video/mp4"/>
               </video>
