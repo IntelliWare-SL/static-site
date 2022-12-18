@@ -14,7 +14,7 @@ const OurClientsSection = () => {
                  alt="Map of our clients" width="100%"/>
           </Col>
           <Col xs={12} md={6} xxl={6}
-               className="d-flex flex-column px-3 ps-md-4 justify-content-center pb-3">
+               className="d-flex flex-column px-3 ps-md-4 justify-content-center pb-4">
             <h2 className="mt-2 mb-1 section-title">Our Clients</h2>
             <p className="section-subtitle my-2 my-md-3 py-2">
               Reamer Made's experience doesn't stop at the construction industry. We work with a variety of companies
