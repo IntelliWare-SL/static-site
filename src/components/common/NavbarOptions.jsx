@@ -1,4 +1,6 @@
 import {Col, Container, Dropdown, Row} from "react-bootstrap";
+import {NavLink} from "react-router-dom";
+import React from "react";
 
 const NavbarOptions = () => {
   return (
@@ -11,22 +13,17 @@ const NavbarOptions = () => {
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
-        <Container className="navbar-options-content px-4 py-5">
-          <Row sm={12} className="justify-content-center px-4 pt-3">
-            <Col sm={12} md={4} className="navbar-options-col">
-              <h2>About Us</h2>
-              <h2>Our Services</h2>
-              <h2>Team</h2>
+        <Container className="navbar-options-content px-4 py-4 py-md-5">
+          <Row sm={12} className="justify-content-center px-4 pt-3 pb-4">
+            <Col sm={12} md={6} className="navbar-options-col">
+              <NavLink to="/about-us">About Us</NavLink><br/>
+              <NavLink to="/our-services">Our Services</NavLink><br/>
+              <NavLink to="/our-team">Our Team</NavLink><br/>
             </Col>
-            <Col sm={12} md={4} className="navbar-options-col">
-              <h2>About Us</h2>
-              <h2>Our Services</h2>
-              <h2>Team</h2>
-            </Col>
-            <Col sm={12} md={4} className="navbar-options-col">
-              <h2>About Us</h2>
-              <h2>Our Services</h2>
-              <h2>Team</h2>
+            <Col sm={12} md={6} className="navbar-options-col">
+              <NavLink to="/featured-projects">Featured Projects</NavLink><br/>
+              <NavLink to="/book-a-meeting">Book A Meeting</NavLink><br/>
+              <NavLink to="/contact-us">Contact Us</NavLink><br/>
             </Col>
           </Row>
         </Container>
