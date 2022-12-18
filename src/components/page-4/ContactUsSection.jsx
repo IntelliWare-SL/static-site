@@ -5,7 +5,7 @@ import {BsFillEnvelopeFill, BsFillTelephoneFill, BsGeoAltFill} from "react-icons
 
 const ContactUsSection = () => {
   return (
-    <section className="contact-us-section-2 pb-2 px-4">
+    <section className="contact-us-section-2 pt-1 pt-md-2 pb-2 px-4">
       <Container className="py-md-5">
         <Row sm={12} className="justify-content-between text-center pt-4 pb-2 flex-column-reverse flex-md-row">
           <Col md={7} lg={8} className="map-wrapper">

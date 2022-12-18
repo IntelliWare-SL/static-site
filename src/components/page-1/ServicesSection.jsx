@@ -4,7 +4,7 @@ import LargeTile from "../common/LargeTile";
 
 const WhatWeDoSection = () => {
   return (
-    <section className="services-section bg-white pt-3 pb-3">
+    <section className="services-section bg-white pt-3 pb-4 mb-4">
       <Container className="py-2 py-md-3">
         <Row className="justify-content-start justify-content-lg-center justify-content-lg-between gap-0">
           <Col sm={12} lg={3} className="px-4 px-md-0 py-2 py-md-5 large-tile">
