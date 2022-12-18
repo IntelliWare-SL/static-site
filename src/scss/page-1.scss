@@ -206,54 +206,6 @@
         padding-left: 2px;
         padding-right: 2px;
     }
-
-    .window {
-        width: 100%;
-        background-color: white;
-        padding: 5px;
-
-        @media (min-width: $md) {
-            padding: 10px;
-        }
-    }
-
-    .window img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    #photo-1, #photo-4 {
-        height: 143px;
-
-        @media (min-width: $md) {
-            height: 500px;
-        }
-    }
-
-    #photo-2, #photo-3 {
-        height: 77px;
-
-        @media (min-width: $md) {
-            height: 267px;
-        }
-    }
-
-    #photo-5 {
-        height: 165px;
-
-        @media (min-width: $md) {
-            height: 575px;
-        }
-    }
-
-    #photo-6 {
-        height: 55px;
-
-        @media (min-width: $md) {
-            height: 192px;
-        }
-    }
 }
 
 // Our clients section
