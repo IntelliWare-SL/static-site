@@ -73,10 +73,102 @@
     }
 }
 
-.book-meeting-section {
-    form {
-        button {
-            padding: 20px 60px;
+.schedule-meeting-section {
+    h2 {
+        color: $color-d1;
+    }
+
+    .section-subtitle {
+        color: $color-d2;
+        font-weight: 400;
+        font-size: 1.15rem;
+        line-height: 1.7;
+    }
+
+    ul {
+        padding-left: 0;
+        list-style: none;
+
+        li {
+            line-height: 2;
+
+            &:before {
+                content: "✓";
+                padding-right: 12px;
+            }
+        }
+    }
+
+    .meeting-form-card {
+        width: 100%;
+        height: fit-content;
+        background-color: white;
+        box-shadow: 0 25px 75px $color-d6;
+        font-family: 'Outfit', sans-serif;
+
+        .form-title {
+            font-size: 1.8rem;
+            font-weight: 400;
+            color: black;
+        }
+
+        .form {
+            .p-multiselect-label-container {
+                color: $color-d3;
+                height: 24px;
+            }
+
+            .p-multiselect {
+                border: none;
+                border-bottom: 1.5px solid $color-d2;
+            }
+
+            .p-multiselect, .p-multiselect-label {
+                padding: 0 !important;
+            }
+
+            .p-multiselect-trigger {
+                padding: 0;
+                color: $color-cta;
+            }
+
+            .card-input-element {
+                display: none;
+            }
+
+            .card-input {
+                transition: all 0.3s ease;
+                border: 1px solid $color-d4;
+                color: $color-d2;
+            }
+
+            .card-input:hover {
+                background-color: $color-d7;
+                cursor: pointer;
+            }
+
+            .card-input-element:checked + .card-input {
+                border: 1px solid $color-cta;
+                background-color: $color-cta;
+                color: white;
+                font-weight: 700;
+            }
+
+            h5 {
+                font-weight: 400;
+                font-size: 1.3rem;
+            }
+
+            button {
+                border-radius: 0 !important;
+
+                font-size: 1.15rem;
+
+                &.greyed {
+                    background-color: $color-p2;
+                    border: 1px solid $color-p2;
+                }
+            }
         }
     }
 }
