@@ -116,17 +116,24 @@
             background-color: $color-dark-bg;
 
             .navbar-options-col {
-                h2 {
+                a {
+                    font-family: 'PT Serif', serif;
                     transition: color 0.3s ease;
-                    font-size: 2.25rem;
-                    font-weight: 600;
+                    font-size: 2rem;
+                    line-height: 2.5;
+                    font-weight: 700;
                     color: white;
-                    margin-bottom: 3rem;
+                    //margin-bottom: 3rem;
                 }
 
-                h2:hover, h2:focus {
+                a:hover, a:focus {
                     transition: color 0.3s ease;
                     color: $color-cta;
+                }
+
+                a.active {
+                    color: $color-cta;
+                    text-decoration: underline;
                 }
             }
         }
