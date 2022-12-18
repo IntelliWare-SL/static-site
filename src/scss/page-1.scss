@@ -297,33 +297,7 @@
 
 // Testimonials section
 .testimonials-section {
-    .testimonial-container {
-        width: 100%;
-        height: 100%;
-
-        svg {
-            margin-left: -150px;
-            width: 1000px;
-        }
-
-        .bubble-content {
-            margin-top: -392px;
-            padding: 40px 40px 40px 90px;
-            width: 700px;
-
-            .testimonial-text {
-                color: $color-d3;
-                font-size: 1.1rem;
-            }
-
-            .testimonial-author {
-                h5 {
-                    font-weight: 400;
-                    color: $color-d3;
-                }
-            }
-        }
-    }
+    background-color: $color-yellow-shade;
 
     h2.section-title {
         color: $color-d2;
@@ -361,5 +335,94 @@
             border-radius: 5px;
             width: 20px !important;
         }
+    }
+
+    .testimonial-card {
+        .testimonial-card-content {
+            width: 100%;
+            font-size: 1.15rem;
+            font-weight: 500;
+            color: $color-d3;
+            line-height: 1.65;
+
+            @media (min-width: $md) {
+                width: 75%;
+            }
+
+            .quotes {
+                margin-top: -12px;
+            }
+        }
+
+        .testimonial-card-author {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: $color-d2;
+            line-height: 1.5;
+        }
+    }
+
+    .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        transition: width 0.3s ease;
+        background-color: $color-d3 !important;
+
+        @media (min-width: $md) {
+            width: 8px;
+            height: 8px;
+        }
+    }
+
+    .swiper-pagination-bullet-active {
+        background-color: $color-cta !important;
+        width: 24px !important;
+        border-radius: 6px;
+
+        @media (min-width: $md) {
+            border-radius: 4px;
+            width: 16px !important;
+        }
+    }
+
+    .swiper-button-prev, .swiper-button-next {
+        display: none;
+        color: $color-cta;
+        font-size: 1.5rem;
+        transition: color 0.3s ease;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        filter: drop-shadow(0px 18px 48px lighten($color-cta, 30%));
+
+        @media (min-width: $md) {
+            display: flex;
+        }
+    }
+
+    .swiper-button-prev {
+        transform: rotate(-45deg);
+        margin-left: 32px;
+    }
+
+    .swiper-button-next {
+        transform: rotate(45deg);
+        margin-right: 32px;
+    }
+
+    .swiper-button-prev:after {
+        content: '⃖';
+        font-size: 3.5rem;
+        margin-left: -10px;
+        margin-top: 45px;
+        transform: rotate(45deg);
+    }
+
+    .swiper-button-next:after {
+        content: '⃗';
+        font-size: 3.5rem;
+        margin-left: 45px;
+        margin-top: 10px;
+        transform: rotate(-45deg);
     }
 }

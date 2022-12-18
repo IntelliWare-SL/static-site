@@ -6,6 +6,7 @@ import WhyUsSection from "../components/page-1/WhyUsSection";
 import FeaturedProjectsSection from "../components/page-1/FeaturedProjectsSection";
 import OurClientsSection from "../components/page-1/OurClientsSection";
 import ContactUsSection from "../components/page-1/ContactUsSection";
+import TestimonialsSection from "../components/page-1/TestimonialsSection";
 
 const Page1 = () => {
   return (
@@ -17,7 +18,7 @@ const Page1 = () => {
       <WhyUsSection/>
       <FeaturedProjectsSection/>
       <OurClientsSection/>
-      {/*<TestimonialsSection/>*/}
+      <TestimonialsSection/>
       <ContactUsSection/>
     </>
   );
