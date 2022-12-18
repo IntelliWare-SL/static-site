@@ -256,6 +256,45 @@
     }
 }
 
+// Our clients section
+.clients-section {
+
+
+    .row {
+        @media (min-width: $sm) {
+            height: fit-content;
+        }
+
+        @media (min-width: $md) {
+            height: fit-content;
+        }
+
+        @media (min-width: $lg) {
+            height: 440px;
+        }
+
+        @media (min-width: $xl) {
+            height: 500px;
+        }
+
+        @media (min-width: $xxl) {
+            height: 600px;
+        }
+
+    }
+
+    .clients-map {
+        @media (min-width: $md) {
+            width: 48%;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            max-height: 565px;
+            max-width: 800px;
+        }
+    }
+}
+
 // Testimonials section
 .testimonials-section {
     .testimonial-container {
