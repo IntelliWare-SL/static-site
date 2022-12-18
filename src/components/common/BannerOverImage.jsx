@@ -9,17 +9,20 @@ const BannerOverImage = ({
                            buttonLink,
                            imageUrl,
                            altText = "",
-                           alignBannerRight
+                           alignBannerRight,
+                           bannerCustomClasses = "",
+                           imageCustomClasses = "",
+
                          }) => {
   return (
     <Row className="banner-over-image align-items-center justify-content-between px-0 mx-0 w-100">
-      <Col xs={12} className="image p-0">
+      <Col xs={12} className={"image p-0"}>
         <img src={imageUrl} height="100%" width="100%"
-             className={!alignBannerRight ? "float-end" : "float-start"}
+             className={(!alignBannerRight ? "float-end " : "float-start ") + imageCustomClasses}
              alt={altText}/>
       </Col>
       <Col xs={12} className="px-0 text-white banner-wrapper">
-        <div className={alignBannerRight ? "banner float-end" : "banner float-start"}>
+        <div className={(alignBannerRight ? "banner float-end " : "banner float-start ") + bannerCustomClasses}>
           <div className="banner-content">
             <h1 className="section-title pb-1 pb-md-2">{bannerTitle}</h1>
             <p className="section-subtitle my-2 my-md-4">{bannerContent}</p>

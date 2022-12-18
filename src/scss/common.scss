@@ -242,17 +242,19 @@
     padding-right: 12px;
 
     .image {
-        width: 65%;
-        height: 100%;
-
-        @media (min-width: $md) {
-            width: 65%;
-        }
+        width: 100%;
 
         img {
             object-fit: cover;
             min-height: 360px;
-            //width: 100%;
+
+
+            width: 65%;
+            height: 100%;
+
+            @media (min-width: $md) {
+                width: 65%;
+            }
 
             @media (min-width: $md) {
                 min-height: 320px;
@@ -276,8 +278,14 @@
         }
     }
 
+    .mobile-full-width {
+        @media (max-width: $md) {
+            width: 100% !important;
+        }
+    }
+
     .banner-wrapper {
-        margin-left: -1000px;
+        margin-left: -1500px;
         //position: absolute;
         //width: 1296px !important;
     }
