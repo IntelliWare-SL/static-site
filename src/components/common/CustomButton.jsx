@@ -4,7 +4,7 @@ import React from "react";
 const CustomButton = ({filled = true, showIcon = true, link, text, customClasses = ""}) => {
   console.log(filled);
   return (
-    <Link to={link} className={"my-4 " + customClasses + (filled ? " custom-btn" : " custom-btn-outline")}>
+    <Link to={link} className={"my-3 " + customClasses + (filled ? " custom-btn" : " custom-btn-outline")}>
       {showIcon && <svg width="36" height="28" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M19.081 1.22783L29.1614 11.0059L19.3833 21.0864L9.30291 11.3082L19.081 1.22783Z"
               stroke="#FDF3EA" strokeWidth="1.5"/>

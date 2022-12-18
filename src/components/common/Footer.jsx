@@ -18,7 +18,7 @@ const Footer = () => {
                 <p>We are dedicated to helping you tell your story and branding yourself in the industry. </p>
               </div>
               <div className="m-auto me-md-auto w-100">
-                <SocialMediaIcons/>
+                <SocialMediaIcons customClasses={"justify-content-start strict-align-left"}/>
               </div>
             </div>
           </Col>

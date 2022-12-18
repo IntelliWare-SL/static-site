@@ -27,14 +27,14 @@ const GetInTouchSection = () => {
     setFormData({...formData, [e.target.name]: e.target.value});
   }
 
-  return (<section className="get-in-touch-section pt-1 px-5 pb-3">
+  return (<section className="get-in-touch-section pt-1 px-1 px-md-3 px-lg-5 pb-3">
     <Container className="py-0 px-5">
       <Row sm={12} className="justify-content-center text-center pt-4 pb-4">
         <Col sm={12}>
-          <h2 className="section-title mb-4">Get in touch</h2>
+          <h2 className="section-title mb-3 mb-md-4 mt-2">Get in touch</h2>
         </Col>
       </Row>
-      <Row sm={12} className="card-wrapper py-3 my-3 justify-content-center gap-5">
+      <Row sm={12} className="card-wrapper py-3 my-md-3 justify-content-center gap-5">
         <Col sm={12} md={10}>
           <Form>
             <Row className="mb-2">
@@ -120,9 +120,10 @@ const GetInTouchSection = () => {
                 </Form.Group>
               </Col>
             </Row>
-            <Row className="justify-content-center mb-1">
-              <Col sm={12} md={6} className="py-3">
-                <CustomButton text={"Submit"} showIcon={false} customClasses={"w-100 d-block text-center"}/>
+            <Row className="justify-content-center mb-2">
+              <Col sm={12} md={6} className="py-0 py-md-3">
+                <CustomButton text={"Submit"} showIcon={false}
+                              customClasses={"my-2 my-md-4 w-100 d-block text-center"}/>
               </Col>
             </Row>
           </Form>

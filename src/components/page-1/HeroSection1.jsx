@@ -7,11 +7,11 @@ import CustomButton from "../common/CustomButton";
 
 const HeroSection1 = () => {
   return (
-    <section className="hero-common-1 hero-section-1">
+    <section className="hero-common hero-section-home">
       <div className="hero-bg-image mt-3 pt-5">
         <img src={bgCurves} alt="" width="100%"/>
       </div>
-      <Container className="hero-section-1 px-0 pb-4 pb-md-5 pb-md-0">
+      <Container className="hero-section-home px-0 pb-4 pb-md-5 pb-md-0">
         <Row className="m-0 p-0 px-3 px-md-0">
           <Col sm={12} md={6} className="hero-left d-flex my-auto pe-md-5">
             <section className="hero-content align-self-center pt-4 pb-4">
@@ -66,7 +66,7 @@ const HeroSection1 = () => {
                   <br/>since 2000
                 </h3>
               </div>
-              <SocialMediaIcons/>
+              <SocialMediaIcons customClasses={"justify-content-center"}/>
             </div>
           </Col>
         </Row>

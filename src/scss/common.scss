@@ -342,7 +342,7 @@
 
 }
 
-.hero-common-1 {
+.hero-common {
     background-color: $color-dark-bg;
     position: relative;
     min-height: 100vh;
@@ -651,7 +651,6 @@ footer {
     }
 
     .social-media-icons .icon-container {
-        width: 120px;
         justify-content: space-between;
     }
 
@@ -700,6 +699,12 @@ footer {
 
         .copyright-bar {
             text-align: left;
+        }
+
+        .strict-align-left {
+            @media (min-width: $md) {
+                margin-left: -32px;
+            }
         }
     }
 
