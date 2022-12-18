@@ -7,7 +7,11 @@
     height: 2px;
     width: 100%;
     background-color: $color-cta;
-    margin: 28px 0;
+    margin: 12px 0;
+
+    @media (min-width: $md) {
+        margin: 24px 0;
+    }
 }
 
 .v-line {
@@ -20,6 +24,11 @@
 .custom-btn, .custom-btn-outline {
     font-weight: 600 !important;
     padding: 16px 24px 16px 24px;
+    font-size: 0.9em;
+
+    @media (min-width: $md) {
+        font-size: 1em;
+    }
 }
 
 .custom-btn {
@@ -182,21 +191,44 @@
 
 .small-tile {
     background-color: white;
-    width: 275px;
-    height: 275px;
+    //width: 275px;
+    //height: 275px;
     box-shadow: 0 25px 75px $color-d6;
     margin: 2px;
+
+    .content {
+        font-size: 0.85em;
+
+        @media (min-width: $md) {
+            font-size: 1em;
+        }
+    }
+
+    .title {
+        font-size: 0.95em;
+
+        @media (min-width: $md) {
+            font-size: 1.1em;
+        }
+    }
 }
 
 .large-tile {
     transition: all 0.3s ease;
-    width: 400px !important;
-    height: 400px !important;
+    //width: 400px !important;
+    //height: 400px !important;
 }
 
 .tile-shadow:hover {
     background-color: white;
     box-shadow: 0 25px 75px $color-d6;
+}
+
+.tile-shadow {
+    @media (max-width: $sm) {
+        background-color: white;
+        box-shadow: 0 25px 75px $color-d6;
+    }
 }
 
 // Banner over image component
@@ -205,11 +237,29 @@
     padding-right: 12px;
 
     .image {
-        height: 650px;
+        width: 65%;
+        height: 100%;
+
+        @media (min-width: $md) {
+            width: 65%;
+        }
 
         img {
             object-fit: cover;
-            width: 900px;
+            min-height: 360px;
+            //width: 100%;
+
+            @media (min-width: $md) {
+                min-height: 320px;
+            }
+
+            @media (min-width: $md) {
+                min-height: 560px;
+            }
+
+            @media (min-width: $lg) {
+                min-height: 640px;
+            }
         }
 
         img.float-start {
@@ -222,37 +272,74 @@
     }
 
     .banner-wrapper {
-        position: absolute;
-        width: 1296px !important;
+        margin-left: -1000px;
+        //position: absolute;
+        //width: 1296px !important;
     }
 
     .banner {
+        width: 75%;
         background-color: $color-dark-bg;
-        height: 510px;
-        width: 540px;
+        //height: 510px;
+        //width: 540px;
+
+        @media (min-width: $sm) {
+            width: 70%;
+        }
+
+        @media (min-width: $md) {
+            width: 60%;
+        }
+
+        @media (min-width: $lg) {
+            width: 45%;
+        }
 
         .banner-content {
-            height: 100%;
-            padding: 56px 40px 56px 68px;
+            //height: 100%;
+            padding: 24px;
+
+            @media (min-width: $md) {
+                padding: 48px;
+            }
+
+            @media (min-width: $lg) {
+                padding: 56px 40px 56px 64px;
+            }
         }
 
         .h-line {
-            width: 40%;
+            margin-left: auto;
+            float: right;
+            right: 0;
             margin-top: 16px;
+            position: absolute;
+            width: 26%;
+            //right: 53px;
         }
     }
 }
 
 // Sections
 .section-title {
-    font-size: 3.5rem;
-    line-height: 1.2;
+    font-size: 2rem;
+
+    @media (min-width: $md) {
+        font-size: 3.3rem;
+        line-height: 1.2;
+    }
 }
 
 .section-subtitle {
-    font-family: 'Source Serif Pro', serif;
-    font-size: 1.2rem;
-    line-height: 1.6;
+    //font-family: 'Source Serif Pro', serif;
+    font-size: 0.95rem;
+
+    @media (min-width: $md) {
+        font-size: 1.15rem;
+        line-height: 1.6;
+    }
+
+
 }
 
 .hero-common-1 {

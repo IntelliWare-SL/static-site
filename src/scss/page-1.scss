@@ -153,7 +153,7 @@
 .gallery-section {
 
     .h-line {
-        width: 225px;
+        width: 75%;
     }
 
     .gallery-photos {
@@ -165,7 +165,19 @@
 
 
         .window {
-            height: 720px;
+            height: 180px;
+
+            @media (min-width: $sm) {
+                height: 360px;
+            }
+
+            @media (min-width: $md) {
+                height: 480px;
+            }
+
+            @media (min-width: $lg) {
+                height: 640px;
+            }
 
             img {
                 object-fit: cover;
@@ -178,7 +190,7 @@
 .services-section {
     .section-subtitle {
         font-family: 'Outfit', sans-serif;
-        font-size: 1.15rem;
+        font-size: 1.1rem;
         color: $color-d2
     }
 
@@ -198,7 +210,11 @@
     .window {
         width: 100%;
         background-color: white;
-        padding: 10px;
+        padding: 5px;
+
+        @media (min-width: $md) {
+            padding: 10px;
+        }
     }
 
     .window img {
@@ -208,19 +224,35 @@
     }
 
     #photo-1, #photo-4 {
-        height: 500px;
+        height: 143px;
+
+        @media (min-width: $md) {
+            height: 500px;
+        }
     }
 
     #photo-2, #photo-3 {
-        height: 270px;
+        height: 77px;
+
+        @media (min-width: $md) {
+            height: 267px;
+        }
     }
 
     #photo-5 {
-        height: 580px;
+        height: 165px;
+
+        @media (min-width: $md) {
+            height: 575px;
+        }
     }
 
     #photo-6 {
-        height: 190px;
+        height: 55px;
+
+        @media (min-width: $md) {
+            height: 192px;
+        }
     }
 }
 

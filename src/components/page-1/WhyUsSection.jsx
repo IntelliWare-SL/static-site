@@ -4,12 +4,10 @@ import BannerOverImage from "../common/BannerOverImage";
 
 const WhyUsSection = () => {
   return (
-    <section className="why-us-section bg-white pb-4 px-0">
-      <Container className="pb-2">
+    <section className="why-us-section bg-white pb-4 px-3 pt-3">
+      <Container className="pb-3 pb-md-5">
         <BannerOverImage bannerTitle="Why Reamer Made?"
-                         bannerContent="At Reamer Made, we understand that construction can be a tough business - but it
-                         doesn't have to be. We are dedicated to helping you tell your story and branding yourself in the
-                         industry."
+                         bannerContent="A marketing company made from the ground up for businesses in the dirt world. We understand your industry"
                          buttonText="Know More"
                          buttonLink="/about-us"
                          imageUrl="https://www.sircapaints.com/wp-content/uploads/2021/07/exterior2.jpg"
