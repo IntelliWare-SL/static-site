@@ -1,10 +1,10 @@
 import React from "react";
 import {FaFacebookF, FaInstagram, FaLinkedinIn} from "react-icons/fa";
 
-const SocialMediaIcons = () => {
+const SocialMediaIcons = ({customClasses}) => {
   return (
     <div className="social-media-icons d-inline-block">
-      <div className="icon-container d-flex align-items-center pt-1 pb-2 px-2 px-md-3">
+      <div className={"icon-container d-flex pt-1 pb-2 px-md-3 " + customClasses}>
         <a href="https://facebook.com">
           <FaFacebookF/>
           {/*<svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">*/}

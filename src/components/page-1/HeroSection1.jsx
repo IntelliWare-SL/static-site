@@ -7,11 +7,11 @@ import CustomButton from "../common/CustomButton";
 
 const HeroSection1 = () => {
   return (
-    <section className="hero-common-1 hero-section-1">
+    <section className="hero-common hero-section-home">
       <div className="hero-bg-image mt-3 pt-5">
         <img src={bgCurves} alt="" width="100%"/>
       </div>
-      <Container className="hero-section-1 px-0 pb-4 pb-md-5 pb-md-0">
+      <Container className="hero-section-home px-0 pb-4 pb-md-5 pb-md-0">
         <Row className="m-0 p-0 px-3 px-md-0">
           <Col sm={12} md={6} className="hero-left d-flex my-auto pe-md-5">
             <section className="hero-content align-self-center pt-4 pb-4">
@@ -20,7 +20,7 @@ const HeroSection1 = () => {
                 Make You Look
                 Good.
               </h1>
-              <h5 className="text-white hero-subtitle py-2 py-md-4 fw-normal pe-0 pe-md-5 me-md-5">
+              <h5 className="text-white hero-subtitle py-1 py-sm-2 py-md-4 fw-normal pe-0 pe-md-5 me-md-5">
                 A marketing firm that's truly made from the ground up.
                 We know the construction industry inside and out,
                 and we're here to help your business grow.
@@ -39,7 +39,7 @@ const HeroSection1 = () => {
             {/*    </svg>*/}
             {/*  </div>*/}
             {/*</Button>*/}
-            <div className="media-wrapper overflow-hidden">
+            <div className="media-wrapper-full overflow-hidden">
               <video autoPlay loop muted>
                 <source src={sampleIntro} type="video/mp4"/>
               </video>
@@ -66,7 +66,7 @@ const HeroSection1 = () => {
                   <br/>since 2000
                 </h3>
               </div>
-              <SocialMediaIcons/>
+              <SocialMediaIcons customClasses={"justify-content-center"}/>
             </div>
           </Col>
         </Row>

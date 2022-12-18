@@ -3,15 +3,15 @@ import {Col} from "react-bootstrap";
 const Tile = ({
                 icon,
                 title,
-                content = "Erat diam hendrerit integer elit nulla mauris ultrices tellus eget fringilla nec in purus vel nisi"
+                content
               }) => {
   return (
-    <Col sm={4} className="tile small-tile p-4">
-      <div className="tile-icon mb-3 pt-2">{icon}</div>
-      <h5 className="my-1">
+    <Col xs={5} sm={5} md={8} lg={5} className="tile small-tile p-3 p-md-4 m-0">
+      <div className="tile-icon mb-2 pt-2">{icon}</div>
+      <h5 className="title my-1">
         {title}
       </h5>
-      <p className="my-2">
+      <p className="content my-1 my-md-2">
         {content}
       </p>
     </Col>

@@ -4,14 +4,14 @@ import ServiceCard from "../common/ServiceCard";
 
 const OurServicesSection = () => {
   return (
-    <section className="our-services-section pt-2 px-5 pb-5">
-      <Container className="py-5 px-5">
-        <Row sm={12} className="justify-content-center text-center pt-5 pb-2">
+    <section className="our-services-section pt-2 pt-md-5 px-5 pb-3">
+      <Container className="py-5 px-0 px-md-5">
+        <Row sm={12} className="justify-content-center text-center pt-2 pb-2">
           <Col sm={12}>
             <h2 className="section-title mb-2">Our Services</h2>
           </Col>
         </Row>
-        <Row sm={12} className="card-wrapper py-2 justify-content-center">
+        <Row sm={12} className="card-wrapper py-2 my-0 my-md-5 justify-content-center">
           <ServiceCard cardTitle="Strategy"
                        cardText="The foundation for all that we do.design services are tailored to help you succeed"
                        cardImageUrl="https://img.freepik.com/free-photo/businessmen-businesswomen-meeting-brainstorming-ideas_7861-3065.jpg?w=2000"

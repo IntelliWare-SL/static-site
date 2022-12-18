@@ -5,12 +5,12 @@ import CustomButton from "../common/CustomButton";
 
 const WhatWeDoSection = () => {
   return (
-    <section className="what-we-do-section bg-white py-5">
-      <Container className="py-5">
-        <Row>
-          <Col sm={12} md={6} className="flex pe-4">
-            <Row sm={12} className="gap-4">
-              <Tile title="Efficient Building" icon={
+    <section className="what-we-do-section bg-white py-3 py-md-5">
+      <Container className="pt-3 pb-4 py-md-5 px-4">
+        <Row className="flex-column-reverse flex-md-row">
+          <Col xs={12} md={6} className="flex px-2 px-md-3 pe-md-4">
+            <Row xs={12} className=" justify-content-center gap-3 gap-md-4">
+              <Tile title="Web Development" icon={
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clipPath="url(#clip0_9_30)">
                     <path d="M6.17505 4.22498H8.12505V6.17498H6.17505V4.22498Z" fill="#50504F"/>
@@ -34,9 +34,9 @@ const WhatWeDoSection = () => {
                       <rect width="26" height="26" fill="white"/>
                     </clipPath>
                   </defs>
-                </svg>
-              }/>
-              <Tile title="Urban Planning" icon={
+                </svg>}
+                    content="Custom design to optimize functionality and create an overall great user experience."/>
+              <Tile title="Design & Branding" icon={
                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clipPath="url(#clip0_9_44)">
                     <path d="M7.3125 5.6875H8.9375V7.3125H7.3125V5.6875Z" fill="#50504F"/>
@@ -94,8 +94,9 @@ const WhatWeDoSection = () => {
                     </clipPath>
                   </defs>
                 </svg>
-              }/>
-              <Tile title="Build Management" icon={
+              } content="Reamer Made will help create an identity for you and your company that sets it apart from the rest.
+"/>
+              <Tile title="Social Media Curation" icon={
                 <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clipPath="url(#clip0_9_74)">
                     <path
@@ -108,8 +109,9 @@ const WhatWeDoSection = () => {
                     </clipPath>
                   </defs>
                 </svg>
-              }/>
-              <Tile title="Efficient Building" icon={
+              } content="Showcase your brand in the most creative and intriguing way to make sure it stands out from the crowd.
+"/>
+              <Tile title="Analytics & Optimization" icon={
                 <svg width="26" height="28" viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fillRule="evenodd" clipRule="evenodd"
                         d="M17.5358 9.80079C17.4038 9.66889 17.1883 9.67456 17.0635 9.81322L13.0396 14.2842C12.166 15.2547 10.6573 15.2944 9.73406 14.3711L8.45728 13.0943C8.32189 12.959 8.09951 12.969 7.97693 13.1162L5.6341 15.9275C5.28876 16.3419 4.67286 16.3979 4.25845 16.0527C3.84404 15.7073 3.78806 15.0914 4.13339 14.677L6.47623 11.8656C7.33419 10.836 8.89095 10.7654 9.83859 11.7131L11.1153 12.9899C11.2473 13.1217 11.4628 13.1161 11.5876 12.9774L15.6114 8.50641C16.485 7.53586 17.9938 7.49617 18.917 8.41948L21.2022 10.7047C21.5836 11.0861 21.5836 11.7045 21.2022 12.0859C20.8207 12.4674 20.2024 12.4674 19.8209 12.0859L17.5358 9.80079Z"
@@ -118,12 +120,12 @@ const WhatWeDoSection = () => {
                         d="M12.6976 0C13.237 0 13.6743 0.437305 13.6743 0.976737V2.60463H23.1161C24.3748 2.60463 25.3952 3.625 25.3952 4.88369V15.9534C25.3952 18.6506 23.2086 20.8371 20.5115 20.8371H18.2499L21.3689 26.5554C21.6273 27.0289 21.4528 27.6223 20.9791 27.8805C20.5056 28.1389 19.9123 27.9644 19.654 27.4907L16.0247 20.8371H13.6743V25.0696C13.6743 25.609 13.237 26.0463 12.6976 26.0463C12.1582 26.0463 11.7208 25.609 11.7208 25.0696V20.8371H9.37045L5.74116 27.4907C5.48284 27.9644 4.88955 28.1389 4.41597 27.8805C3.9424 27.6223 3.7679 27.0289 4.02621 26.5554L7.14528 20.8371H4.88369C2.1865 20.8371 0 18.6506 0 15.9534V4.88369C0 3.625 1.02036 2.60463 2.27905 2.60463H11.7208V0.976737C11.7208 0.437305 12.1582 0 12.6976 0V0ZM8.81052 18.8836H8.77248H4.88369C3.26538 18.8836 1.95347 17.5716 1.95347 15.9534V4.88369C1.95347 4.70388 2.09924 4.55811 2.27905 4.55811H23.1161C23.2958 4.55811 23.4417 4.70388 23.4417 4.88369V15.9534C23.4417 17.5716 22.1297 18.8836 20.5115 18.8836H16.6226C16.61 18.8833 16.5974 18.8833 16.5846 18.8836H8.81052ZM17.0635 9.81317C17.1882 9.67452 17.4038 9.66885 17.5357 9.80075L19.8209 12.0859C20.2023 12.4673 20.8207 12.4673 21.2021 12.0859C21.5835 11.7044 21.5835 11.086 21.2021 10.7046L18.9169 8.41944C17.9937 7.49613 16.485 7.53581 15.6114 8.50637L11.5875 12.9773C11.4627 13.116 11.2472 13.1216 11.1153 12.9898L9.83853 11.713C8.89089 10.7654 7.33412 10.836 6.47617 11.8655L4.13333 14.677C3.788 15.0914 3.84398 15.7072 4.25839 16.0526C4.6728 16.3979 5.28869 16.3419 5.63404 15.9275L7.97687 13.1161C8.09944 12.969 8.32183 12.959 8.45722 13.0943L9.73399 14.3711C10.6572 15.2944 12.166 15.2547 13.0396 14.2842L17.0635 9.81317Z"
                         fill="#50504F"/>
                 </svg>
-              }/>
+              } content="Track what’s working, identify areas for improvement, and use insights to make informed"/>
             </Row>
           </Col>
-          <Col sm={12} md={6} className="d-flex flex-column ps-4 justify-content-center">
+          <Col xs={12} md={6} className="d-flex flex-column px-3 ps-md-4 justify-content-center pb-2 pb-md-0">
             <h2 className="my-2 section-title">What we do</h2>
-            <p className="section-subtitle my-3 py-2">
+            <p className="section-subtitle my-2 my-md-3 py-2">
               At Reamer Made, we understand that construction can be a tough business - but it doesn't have to be. We
               are dedicated to helping you tell your story and branding yourself in the industry.
             </p>
