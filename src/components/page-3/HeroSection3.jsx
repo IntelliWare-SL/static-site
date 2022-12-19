@@ -1,7 +1,7 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import bgCurves from "../../assets/images/bg-curves.png";
-import sampleIntro from "../../assets/videos/sample-intro.mp4";
+import sampleIntro from "../../assets/videos/HomePage-Video-web-version.mov";
 
 const HeroSection3 = () => {
   return (

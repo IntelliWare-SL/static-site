@@ -7,8 +7,25 @@ import FeaturedProjectsSection from "../components/page-1/FeaturedProjectsSectio
 import OurClientsSection from "../components/page-1/OurClientsSection";
 import ContactUsSection from "../components/page-1/ContactUsSection";
 import TestimonialsSection from "../components/page-1/TestimonialsSection";
+import {useEffect, useRef} from "react";
+import { useSearchParams } from 'react-router-dom';
 
 const Page1 = () => {
+    const [searchParams] = useSearchParams();
+    const RefFeaturedProjects = useRef(null)
+
+    const scrollToFeatured=()=>{
+        if(searchParams.get('scroll')==='featured' && RefFeaturedProjects?.current){
+            RefFeaturedProjects.current.scrollIntoView()
+        }else{
+            window.scrollTo(0, 0);
+        }
+    }
+
+    useEffect(()=>{
+        scrollToFeatured()
+    },[RefFeaturedProjects?.current])
+
   return (
     <>
       <HeroSection1/>
@@ -16,7 +33,10 @@ const Page1 = () => {
       <GallerySection/>
       <ServicesSection/>
       <WhyUsSection/>
-      <FeaturedProjectsSection/>
+        <div ref={RefFeaturedProjects}>
+            <FeaturedProjectsSection />
+        </div>
+
       <OurClientsSection/>
       <TestimonialsSection/>
       <ContactUsSection/>
