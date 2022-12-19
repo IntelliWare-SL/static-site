@@ -8,7 +8,7 @@ const ContactDetailsField = ({type, icon, line1, line2}) => {
           <>
             <a href={`mailto: ${line1}`}>{line1}</a>
             <br/>
-            <a href={`mailto: ${line1}`}>{line1}</a>
+            <a href={`mailto: ${line2}`}>{line2}</a>
           </>
         );
 
@@ -17,7 +17,7 @@ const ContactDetailsField = ({type, icon, line1, line2}) => {
           <>
             <a href={`tel: ${line1}`}>{line1}</a>
             <br/>
-            <a href={`tel: ${line1}`}>{line1}</a>
+            <a href={`tel: ${line2}`}>{line2}</a>
           </>
         );
 

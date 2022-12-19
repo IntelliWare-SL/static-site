@@ -327,7 +327,7 @@
     }
 
     .swiper-pagination-bullet-active {
-        background-color: $color-cta !important;
+        background-color: #767860 !important;
         width: 24px !important;
         border-radius: 6px;
 
@@ -339,7 +339,7 @@
 
     .swiper-button-prev, .swiper-button-next {
         display: none;
-        color: $color-cta;
+        color: #767860;
         font-size: 1.5rem;
         transition: color 0.3s ease;
         width: 50px;
@@ -366,7 +366,7 @@
         content: '⃖';
         font-size: 3.5rem;
         margin-left: -10px;
-        margin-top: 45px;
+        margin-top: 35px;
         transform: rotate(45deg);
     }
 
@@ -374,7 +374,7 @@
         content: '⃗';
         font-size: 3.5rem;
         margin-left: 45px;
-        margin-top: 10px;
+        margin-top: 3px;
         transform: rotate(-45deg);
     }
 }

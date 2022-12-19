@@ -1,6 +1,6 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import sampleIntro from "../../assets/videos/sample-intro.mp4";
+import sampleIntro from "../../assets/videos/HomePage-Video-web-version.mov";
 import bgCurves from "../../assets/images/bg-curves.png";
 import SocialMediaIcons from "../common/SocialMediaIcons";
 import CustomButton from "../common/CustomButton";
@@ -31,19 +31,10 @@ const HeroSection1 = () => {
             </section>
           </Col>
           <Col sm={12} md={6} className="hero-right h-100 px-md-0">
-            {/*<Button className="play-button position-absolute">*/}
-            {/*  <div className="play-button-icon ms-3">*/}
-            {/*    <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">*/}
-            {/*      <path*/}
-            {/*        d="M21.0001 0C9.4199 0 0 9.42081 0 21C0 32.5793 9.4199 42 21.0001 42C32.5801 42 42.0001 32.5793 42.0001 21C42.0001 9.42081 32.5801 0 21.0001 0ZM29.3485 21.7358L17.0985 29.6108C16.9549 29.7039 16.7891 29.75 16.625 29.75C16.4815 29.75 16.3362 29.7141 16.2064 29.6432C15.9244 29.4894 15.75 29.1955 15.75 28.875V13.125C15.75 12.8046 15.9244 12.5106 16.2064 12.3568C16.4832 12.2047 16.8302 12.2141 17.0985 12.3893L29.3485 20.2642C29.598 20.4249 29.7501 20.7027 29.7501 21C29.7501 21.2973 29.598 21.575 29.3485 21.7358Z"/>*/}
-            {/*    </svg>*/}
-            {/*  </div>*/}
-            {/*</Button>*/}
             <div className="media-wrapper-full overflow-hidden">
               <video autoPlay loop muted>
                 <source src={sampleIntro} type="video/mp4"/>
               </video>
-              {/*<img src={heroImage} alt="Architectural house" className="m-auto"/>*/}
             </div>
           </Col>
         </Row>

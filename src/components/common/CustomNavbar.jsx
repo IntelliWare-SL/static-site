@@ -32,7 +32,9 @@ const CustomNavbar = () => {
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about-us">About Us</NavLink>
           <NavLink to="/our-services">Our Services</NavLink>
-          <NavLink to="/our-projects">Our Projects</NavLink>
+          <NavLink to="/?scroll=featured" className={({ isActive }) =>
+              isActive ? 'our-projects-active' : ""
+          }> Our Projects </NavLink>
         </Nav>
         <CustomButton link={"/contact-us"} text={"Contact Us"} filled={false} showIcon={false}/>
       </Container>
