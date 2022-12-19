@@ -92,18 +92,76 @@
         }
     }
 
-    .dropdown-toggle {
+    $hamburg-icon-scale: 0.35;
+
+    .dropdown {
+        display: contents !important;
         outline: none;
         background: none;
+        border: none !important;
+
+        label {
+            padding-top: 6px;
+            display: flex;
+            flex-direction: column;
+            width: 70px*$hamburg-icon-scale;
+            cursor: pointer;
+        }
+
+        label span {
+            background: #fff;
+            border-radius: 10px*$hamburg-icon-scale;
+            height: 7px*$hamburg-icon-scale;
+            margin: 7px*$hamburg-icon-scale 0;
+            transition: .3s ease;
+
+        }
+
+        span:nth-of-type(1) {
+            width: 100%;
+
+        }
+
+        span:nth-of-type(2) {
+            width: 100%;
+        }
+
+
+        span:nth-of-type(3) {
+            width: 50%;
+
+        }
+    }
+
+    .dropdown.show {
+        span:nth-of-type(1) {
+            transform-origin: bottom;
+            width: 50%;
+            transform: rotatez(45deg) translate(8px*$hamburg-icon-scale, 0)
+        }
+
+        span:nth-of-type(2) {
+
+            transform-origin: top;
+            transform: rotatez(-45deg)
+        }
+
+
+        span:nth-of-type(3) {
+            transform-origin: bottom;
+            width: 50%;
+            transform: translate(30px*$hamburg-icon-scale, -11px*$hamburg-icon-scale) rotatez(45deg);
+        }
+    }
+
+    .dropdown-toggle {
+        background: none;
+        outline: none;
         border: none;
     }
 
     .dropdown-toggle::after {
         display: none !important;
-    }
-
-    .dropdown {
-        display: contents !important;
     }
 
     .dropdown-menu {
