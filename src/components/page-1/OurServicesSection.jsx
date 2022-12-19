@@ -5,9 +5,9 @@ import LargeTile from "../common/LargeTile";
 const WhatWeDoSection = () => {
   return (
     <section className="services-section bg-white pt-3 pb-4 mb-4">
-      <Container className="py-2 py-md-3">
+      <Container className="py-2 py-md-3 pb-md-4">
         <Row className="justify-content-start justify-content-lg-center justify-content-lg-between gap-0 px-0">
-          <Col sm={12} lg={4} className="px-4 px-md-2 py-2 py-md-5 large-tile">
+          <Col sm={12} lg={4} className="px-4 px-md-2 py-2 py-md-3 large-tile">
             <h2 className="section-title mb-3">Our <br/>Services</h2>
             <p className="section-subtitle mt-4 mb-3 pe-4">Our marketing and design services are tailored to help you
               succeed, whether you're an independent contractor or working on a massive civil construction project,

@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9b8072c-6a08-4822-ae3c-868afb3e6685" name="Changes" comment="Fix spacing and padding issues">
+    <list default="true" id="a9b8072c-6a08-4822-ae3c-868afb3e6685" name="Changes" comment="Add on click effect to navbar hamburger icon">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/NavbarOptions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/NavbarOptions.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page-1/HeroSection1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-1/HeroSection1.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/page-1/OurServicesSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-1/OurServicesSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page-1/WhyUsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-1/WhyUsSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page-3/HeroSection3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-3/HeroSection3.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page-4/ContactUsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-4/ContactUsSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page-4/GetInTouchSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-4/GetInTouchSection.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/page-1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/page-1.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/page-2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/page-2.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +87,7 @@
       <workItem from="1671394618670" duration="165000" />
       <workItem from="1671398021167" duration="858000" />
       <workItem from="1671447771346" duration="4484000" />
-      <workItem from="1671467580713" duration="5756000" />
+      <workItem from="1671467580713" duration="7974000" />
     </task>
     <task id="LOCAL-00001" summary="Resolve spacing and padding issues">
       <created>1671468957511</created>
@@ -103,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671469120727</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add on click effect to navbar hamburger icon">
+      <created>1671473481101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671473481101</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +138,7 @@
     <MESSAGE value="Resolve spacing and padding issues" />
     <MESSAGE value="Add bg-image on hover to cards in WhatWeDoSection" />
     <MESSAGE value="Fix spacing and padding issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix spacing and padding issues" />
+    <MESSAGE value="Add on click effect to navbar hamburger icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add on click effect to navbar hamburger icon" />
   </component>
 </project>

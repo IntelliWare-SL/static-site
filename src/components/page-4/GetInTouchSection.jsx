@@ -31,7 +31,7 @@ const GetInTouchSection = () => {
     <Container className="py-0 px-5">
       <Row sm={12} className="justify-content-center text-center pt-4 pb-4">
         <Col sm={12}>
-          <h2 className="section-title mb-3 mb-md-4 mt-2">Get in touch</h2>
+          <h2 className="section-title mb-2 mt-2">Get in touch</h2>
         </Col>
       </Row>
       <Row sm={12} className="card-wrapper py-3 my-md-3 justify-content-center gap-5">

@@ -12,7 +12,7 @@ const HeroSection3 = () => {
       <Container className="hero-section px-4 px-md-0 pb-4 pb-md-5 pb-md-0">
         <Row className="m-0 p-0">
           <Col sm={12} md={6} className="hero-left d-flex my-auto px-2 ps-md-2 pe-md-5">
-            <section className="hero-content align-self-center pt-4 pb-4 ps-md-1">
+            <section className="hero-content align-self-center pt-4 pb-4 pb-md-2 ps-md-1">
               <h6 className="breadcrumbs">Home / Services</h6>
               <h1 className="text-white hero-title py-3 py-md-2">
                 We Work Hard to
