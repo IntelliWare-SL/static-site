@@ -4,14 +4,14 @@ import React from "react";
 const GallerySection = () => {
   return (
     <section className="gallery-section bg-white pb-3">
-      <Container className="py-4 px-3">
+      <Container className="py-4 px-1">
         <Row sm={12} className="justify-content-center text-center mb-3">
           <Col sm={12}>
             <h2 className="section-title">Made From The Ground Up</h2>
           </Col>
         </Row>
         <Row className="gallery-photos pt-4 pb-3 px-2">
-          <Col xs={3} className="px-1 px-sm-2 px-md-3">
+          <Col xs={3} className="px-1 px-sm-2 px-md-2">
             <div className="h-line mx-auto ms-0"></div>
             <div className="window">
               <img

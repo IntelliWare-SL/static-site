@@ -1,4 +1,4 @@
-//@import "include-media/dist/_include-media.scss";
+@import "./custom";
 
 // Components
 
@@ -203,11 +203,17 @@
 }
 
 .small-tile {
-    background-color: white;
+    transition: all 0.3s ease;
     //width: 275px;
     //height: 275px;
     box-shadow: 0 25px 75px $color-d6;
     margin: 2px;
+    background: white;
+    color: $color-d2;
+
+    svg {
+        fill: $color-d2;
+    }
 
     .content {
         font-size: 0.85em;
@@ -222,6 +228,25 @@
 
         @media (min-width: $md) {
             font-size: 1.1em;
+        }
+    }
+
+    &:hover {
+        background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+        url("https://i0.wp.com/xn--belnafastighet-nib.se/wp-content/uploads/2022/06/hus.jpg?resize=1560%2C1418&ssl=1");
+        background-size: cover;
+        color: white !important;
+
+        .content {
+            color: white;
+        }
+
+        .title {
+            color: white;
+        }
+
+        svg {
+            fill: white;
         }
     }
 }
@@ -628,10 +653,7 @@
     border-radius: 0;
     border: none;
     box-shadow: 0 18px 36px $color-d6;
-
-    @media (min-width: $md) {
-        height: 800px;
-    }
+    min-height: 100%;
 
     .window {
         height: 260px;

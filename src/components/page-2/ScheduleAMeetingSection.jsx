@@ -24,7 +24,7 @@ const ScheduleAMeetingSection = () => {
   }
 
   return (<section className="schedule-meeting-section pt-0 px-4 px-lg-5 pb-4 pb-lg-5">
-    <Container className="pt-2 pb-4 px-3 px-lg-5">
+    <Container className="pt-2 pb-4 px-2">
       <Row sm={12}
            className="justify-content-center text-center pt-4 pb-3 align-items-center flex-column-reverse flex-lg-row">
         <Col sm={12} lg={6} className="pe-3 pe-md-5 mb-4 mb-lg-0">

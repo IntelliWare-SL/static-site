@@ -6,8 +6,8 @@ const Tile = ({
                 content
               }) => {
   return (
-    <Col xs={5} sm={5} md={8} lg={5} className="tile small-tile p-3 p-md-4 m-0">
-      <div className="tile-icon mb-2 pt-2">{icon}</div>
+    <Col xs={5} sm={5} md={8} lg={5} className="tile small-tile p-3 p-md-4 m-0 justify-content-start align-items-start">
+      <div className="tile-icon mb-2 pt-3">{icon}</div>
       <h5 className="title my-1">
         {title}
       </h5>

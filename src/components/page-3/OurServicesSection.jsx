@@ -4,7 +4,7 @@ import ServiceCard from "../common/ServiceCard";
 
 const OurServicesSection = () => {
   return (
-    <section className="our-services-section pt-2 pt-md-5 px-5 pb-3">
+    <section className="our-services-section pt-2 pt-md-5 px-2">
       <Container className="py-5 px-0 px-md-5">
         <Row sm={12} className="justify-content-center text-center pt-2 pb-2">
           <Col sm={12}>
