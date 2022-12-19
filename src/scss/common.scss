@@ -1,4 +1,4 @@
-//@import "include-media/dist/_include-media.scss";
+@import "./custom";
 
 // Components
 
@@ -92,18 +92,76 @@
         }
     }
 
-    .dropdown-toggle {
+    $hamburg-icon-scale: 0.35;
+
+    .dropdown {
+        display: contents !important;
         outline: none;
         background: none;
+        border: none !important;
+
+        label {
+            padding-top: 6px;
+            display: flex;
+            flex-direction: column;
+            width: 70px*$hamburg-icon-scale;
+            cursor: pointer;
+        }
+
+        label span {
+            background: #fff;
+            border-radius: 10px*$hamburg-icon-scale;
+            height: 7px*$hamburg-icon-scale;
+            margin: 7px*$hamburg-icon-scale 0;
+            transition: .3s ease;
+
+        }
+
+        span:nth-of-type(1) {
+            width: 100%;
+
+        }
+
+        span:nth-of-type(2) {
+            width: 100%;
+        }
+
+
+        span:nth-of-type(3) {
+            width: 50%;
+
+        }
+    }
+
+    .dropdown.show {
+        span:nth-of-type(1) {
+            transform-origin: bottom;
+            width: 50%;
+            transform: rotatez(45deg) translate(8px*$hamburg-icon-scale, 0)
+        }
+
+        span:nth-of-type(2) {
+
+            transform-origin: top;
+            transform: rotatez(-45deg)
+        }
+
+
+        span:nth-of-type(3) {
+            transform-origin: bottom;
+            width: 50%;
+            transform: translate(30px*$hamburg-icon-scale, -11px*$hamburg-icon-scale) rotatez(45deg);
+        }
+    }
+
+    .dropdown-toggle {
+        background: none;
+        outline: none;
         border: none;
     }
 
     .dropdown-toggle::after {
         display: none !important;
-    }
-
-    .dropdown {
-        display: contents !important;
     }
 
     .dropdown-menu {
@@ -203,11 +261,17 @@
 }
 
 .small-tile {
-    background-color: white;
+    transition: all 0.3s ease;
     //width: 275px;
     //height: 275px;
     box-shadow: 0 25px 75px $color-d6;
     margin: 2px;
+    background: white;
+    color: $color-d2;
+
+    svg {
+        fill: $color-d2;
+    }
 
     .content {
         font-size: 0.85em;
@@ -222,6 +286,25 @@
 
         @media (min-width: $md) {
             font-size: 1.1em;
+        }
+    }
+
+    &:hover {
+        background: radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+        url("https://i0.wp.com/xn--belnafastighet-nib.se/wp-content/uploads/2022/06/hus.jpg?resize=1560%2C1418&ssl=1");
+        background-size: cover;
+        color: white !important;
+
+        .content {
+            color: white;
+        }
+
+        .title {
+            color: white;
+        }
+
+        svg {
+            fill: white;
         }
     }
 }
@@ -628,10 +711,7 @@
     border-radius: 0;
     border: none;
     box-shadow: 0 18px 36px $color-d6;
-
-    @media (min-width: $md) {
-        height: 800px;
-    }
+    min-height: 100%;
 
     .window {
         height: 260px;

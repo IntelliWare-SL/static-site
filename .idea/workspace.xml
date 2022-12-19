@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9b8072c-6a08-4822-ae3c-868afb3e6685" name="Changes" comment="">
+    <list default="true" id="a9b8072c-6a08-4822-ae3c-868afb3e6685" name="Changes" comment="Fix spacing and padding issues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/CustomNavbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/CustomNavbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page-1/HeroSection1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-1/HeroSection1.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page-3/HeroSection3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-3/HeroSection3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Page1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Page1.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Page2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Page2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Page3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Page3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Page4.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Page4.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/NavbarOptions.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/NavbarOptions.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/page-1/OurServicesSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-1/OurServicesSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/page-1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/page-1.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,24 +17,54 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2J5CN3ElDcUephG55CYQ8t7dxon" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,7 +80,30 @@
       <workItem from="1671394618670" duration="165000" />
       <workItem from="1671398021167" duration="858000" />
       <workItem from="1671447771346" duration="4484000" />
+      <workItem from="1671467580713" duration="5756000" />
     </task>
+    <task id="LOCAL-00001" summary="Resolve spacing and padding issues">
+      <created>1671468957511</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671468957511</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add bg-image on hover to cards in WhatWeDoSection">
+      <created>1671469045847</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671469045847</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix spacing and padding issues">
+      <created>1671469120727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671469120727</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,5 +119,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Resolve spacing and padding issues" />
+    <MESSAGE value="Add bg-image on hover to cards in WhatWeDoSection" />
+    <MESSAGE value="Fix spacing and padding issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix spacing and padding issues" />
   </component>
 </project>

@@ -4,7 +4,7 @@ import React from "react";
 const ServiceCard = ({cardTitle, cardText, cardImageUrl, listItems}) => {
   return (
     <Col sm={12} md={6} lg={4} className="my-3 my-md-4">
-      <Card className="service-card">
+      <Card className="service-card pb-2">
         <div className="window pb-1">
           <Card.Img variant="top"
                     width="100%"
