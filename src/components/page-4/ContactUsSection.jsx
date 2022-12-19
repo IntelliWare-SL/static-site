@@ -18,13 +18,13 @@ const ContactUsSection = () => {
             <h3 className="section-title pt-3 pt-lg-0 pb-3 mb-4">Contact Us</h3>
             <ContactDetailsField type="phone" icon={
               <BsFillTelephoneFill/>
-            } line1="+1-8058476323" line2="+1-8795847362"/>
+            } line1="+91-8058476323," line2="+91-8795847362"/>
             <ContactDetailsField icon={
               <BsGeoAltFill/>
             } line1="100 Orchard St," line2="New York, NY 10002, USA"/>
             <ContactDetailsField type="email" icon={
               <BsFillEnvelopeFill/>
-            } line1="ready@gmail.com" line2="read24@gmail.com"/>
+            } line1="contact@reamermade.com" line2=""/>
           </Col>
         </Row>
       </Container>

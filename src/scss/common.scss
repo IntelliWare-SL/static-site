@@ -657,10 +657,10 @@
 
     .text {
         font-weight: 400;
-        color: $color-d3;
+        color: #7C7C7B;
     }
 
-    ol {
+    ul {
         li {
             font-weight: 500;
             color: $color-d3;
@@ -677,19 +677,19 @@
     }
 
     &:hover {
-        background-color: $color-dark-bg;
+        background-color: #3D3D3D;
 
         .title {
-            color: $color-cta;
+            color: #AD3D25;
         }
 
         .text {
             color: $color-p2-shade;
         }
 
-        ol {
+        ul {
             li {
-                color: $color-d5;
+                color: #F1F1EF;
 
                 &::marker {
                     color: $color-cta;

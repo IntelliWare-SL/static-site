@@ -21,13 +21,9 @@ const HeroSection3 = () => {
               </h1>
               <div className="hero-text py-2">
                 <p className="pt-3 pb-2 pt-md-4 pb-md-5">
-                  Just like reamers, our services come in a variety of shapes and sizes. Contact us to learn more.
+                  Our team of experts understands the industry and will help tell your story that engages your audience and drives results. By creating customized campaigns for your company’s needs, together Reamer Made can help define your brand, create customized proposal templates to win bids, and help recruit new talent through social media.
+                  Reamer Made is your trusted construction marketing
                 </p>
-                {/*<p className=" m-0 pb-5">*/}
-                {/*  By specializing in web development, digital marketing, and defining your brand – Reamer Made’s goal is*/}
-                {/*  to help bridge the gap between the construction industry and technology. We want to help your company*/}
-                {/*  tap into its potential for growth.*/}
-                {/*</p>*/}
               </div>
             </section>
           </Col>
