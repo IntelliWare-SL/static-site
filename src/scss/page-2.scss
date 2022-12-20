@@ -70,13 +70,21 @@
         }
 
         h3.member-name {
-            font-size: 1.5rem;
+            font-size: 1.1rem;
             color: $color-d2;
+
+            @media (min-width: $md) {
+                font-size: 1.5rem;
+            }
         }
 
         h6.member-role {
-            font-size: 1.2rem;
+            font-size: 0.85rem;
             color: $color-d3;
+
+            @media (min-width: $md) {
+                font-size: 1.2rem;
+            }
         }
     }
 }

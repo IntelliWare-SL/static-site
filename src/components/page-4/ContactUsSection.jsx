@@ -5,8 +5,8 @@ import {BsFillEnvelopeFill, BsFillTelephoneFill, BsGeoAltFill} from "react-icons
 
 const ContactUsSection = () => {
   return (
-    <section className="contact-us-section-2 pt-1 pt-md-2 pb-2">
-      <Container className="py-md-5 px-2">
+    <section className="contact-us-section-2 pt-1 pt-md-2 pb-2 px-4">
+      <Container className="py-md-5 px-0 mx-0">
         <Row sm={12} className="justify-content-between text-center pt-4 pb-2 flex-column-reverse flex-md-row">
           <Col md={7} lg={8} className="map-wrapper">
             <iframe
@@ -15,7 +15,7 @@ const ContactUsSection = () => {
               width="100%" height="100%" style={{border: 0}} allowFullScreen="" loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"></iframe>
           </Col>
-          <Col md={5} lg={4} className="px-2 pt-2 pt-md-3 pb-3 pb-md-2 ps-5">
+          <Col md={5} lg={4} className="px-0 pt-2 pt-md-3 pb-3 pb-md-2 ps-md-5">
             <h3 className="section-title pt-3 pt-lg-0 pb-3 mb-4">Contact Us</h3>
             <ContactDetailsField type="phone" icon={
               <BsFillTelephoneFill/>

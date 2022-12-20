@@ -27,8 +27,8 @@ const GetInTouchSection = () => {
     setFormData({...formData, [e.target.name]: e.target.value});
   }
 
-  return (<section className="get-in-touch-section pt-1 px-1 px-md-3 px-lg-5 pb-3">
-    <Container className="py-0 px-5">
+  return (<section className="get-in-touch-section pt-1 px-4 px-md-3 px-lg-5 pb-3">
+    <Container className="py-0 px-4">
       <Row sm={12} className="justify-content-center text-center pt-4 pb-4">
         <Col sm={12}>
           <h2 className="section-title mb-2 mt-2">Get in touch</h2>

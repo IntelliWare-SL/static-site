@@ -9,16 +9,16 @@ const HeroSection4 = () => {
       <div className="hero-bg-image pt-5">
         <img src={bgCurves} alt="" width="100%"/>
       </div>
-      <Container className="hero-section px-4 px-md-0 pb-4 pb-md-5 pb-md-0">
+      <Container className="hero-section px-0 pb-4 pb-md-5 pb-md-0">
         <Row className="m-0 p-0">
-          <Col sm={12} md={6} className="hero-left d-flex my-auto px-2 ps-md-2 pe-md-5">
+          <Col sm={12} md={6} className="hero-left px-4 px-md-0 d-flex my-auto px-2 ps-md-2 pe-md-5">
             <section className="hero-content align-self-center pt-4 pb-4 ps-md-1">
               <h6 className="breadcrumbs">Home / Contact Us</h6>
               <h1 className="text-white hero-title py-2 py-md-1">
                 Ready to get your <span>project</span> off the ground?
               </h1>
-              <div className="hero-text pt-2">
-                <p className="pt-2 pb-1 py-md-2">
+              <div className="hero-text pt-1">
+                <p className="px-2 pt-2 pb-1 py-md-2">
                   Just like reamers, our services come in a variety of shapes and sizes. Contact us to learn more.
                 </p>
               </div>
@@ -27,8 +27,8 @@ const HeroSection4 = () => {
               </div>
             </section>
           </Col>
-          <Col sm={12} md={6} className="hero-right ps-5 h-100">
-            <div className="mb-3">
+          <Col sm={12} md={6} className="hero-right px-4 ps-md-5  h-100">
+            <div className="mb-3 ms-2">
               <div className="v-line float-start"/>
               <div className="media-wrapper">
                 <img
