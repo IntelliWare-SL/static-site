@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9b8072c-6a08-4822-ae3c-868afb3e6685" name="Changes" comment="Add on click effect to navbar hamburger icon">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page-1/HeroSection1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-1/HeroSection1.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page-1/OurServicesSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-1/OurServicesSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page-1/WhyUsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-1/WhyUsSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page-3/HeroSection3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-3/HeroSection3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/page-4/ContactUsSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-4/ContactUsSection.jsx" afterDir="false" />
+    <list default="true" id="a9b8072c-6a08-4822-ae3c-868afb3e6685" name="Changes" comment="Implement Get in touch form functionality">
       <change beforePath="$PROJECT_DIR$/src/components/page-4/GetInTouchSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-4/GetInTouchSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/page-1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/page-1.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/page-2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/page-2.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="fix/minor-revisions" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,20 +31,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -87,7 +76,11 @@
       <workItem from="1671394618670" duration="165000" />
       <workItem from="1671398021167" duration="858000" />
       <workItem from="1671447771346" duration="4484000" />
-      <workItem from="1671467580713" duration="7974000" />
+      <workItem from="1671467580713" duration="14820000" />
+      <workItem from="1671506467637" duration="6077000" />
+      <workItem from="1671524188371" duration="644000" />
+      <workItem from="1671525064732" duration="5675000" />
+      <workItem from="1671536912876" duration="12912000" />
     </task>
     <task id="LOCAL-00001" summary="Resolve spacing and padding issues">
       <created>1671468957511</created>
@@ -117,7 +110,28 @@
       <option name="project" value="LOCAL" />
       <updated>1671473481101</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update styles">
+      <created>1671475656579</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671475656579</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Install formik and sweetalert2">
+      <created>1671557135069</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671557135069</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implement Get in touch form functionality">
+      <created>1671557217116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671557217116</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +153,9 @@
     <MESSAGE value="Add bg-image on hover to cards in WhatWeDoSection" />
     <MESSAGE value="Fix spacing and padding issues" />
     <MESSAGE value="Add on click effect to navbar hamburger icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add on click effect to navbar hamburger icon" />
+    <MESSAGE value="Update styles" />
+    <MESSAGE value="Install formik and sweetalert2" />
+    <MESSAGE value="Implement Get in touch form functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement Get in touch form functionality" />
   </component>
 </project>
