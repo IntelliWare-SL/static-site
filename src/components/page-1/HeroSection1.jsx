@@ -12,10 +12,10 @@ const HeroSection1 = () => {
         <img src={bgCurves} alt="" width="100%"/>
       </div>
       <Container className="hero-section-home px-0 pb-4 pb-md-5 pb-md-0">
-        <Row className="m-0 p-0 px-3 px-md-0">
-          <Col sm={12} md={6} className="hero-left d-flex my-auto pe-md-5">
-            <section className="hero-content align-self-center pt-4 pb-4">
-              <h1 className="text-white hero-title py-3 py-md-2">
+        <Row className="m-0 p-0 px-4 px-md-0">
+          <Col sm={12} md={6} className="hero-left px-4 px-md-0 d-flex my-auto pe-md-5">
+            <section className="px-md-0 hero-content align-self-center pt-4 pb-4">
+              <h1 className="px-0 text-white hero-title py-3 py-md-2">
                 We <span>Work Hard</span> to
                 Make You Look
                 Good.
@@ -30,12 +30,12 @@ const HeroSection1 = () => {
               </div>
             </section>
           </Col>
-          <Col sm={12} md={6} className="hero-right h-100 px-md-0">
-            <div className="media-wrapper-full overflow-hidden">
+          <Col sm={12} md={6} className="hero-right mb-1 mb-md-0 h-100 px-1 overflow-hidden">
+            <div className="media-wrapper-full overflow-hidden d-inline-flex justify-content-center">
               <video autoPlay loop muted defaultMuted playsInline onContextMenu="return false;" preload="auto">
                 <source src={sampleIntro} type="video/mp4"/>
               </video>
-              <SocialMediaIcons customClasses={"justify-content-center position-absolute bottom-0"}/>
+              <SocialMediaIcons customClasses={"justify-content-center"}/>
             </div>
           </Col>
         </Row>

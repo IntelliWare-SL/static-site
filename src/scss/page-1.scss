@@ -8,7 +8,31 @@
 }
 
 .hero-section-home {
-    height: 100vh;
+    min-height: fit-content;
+
+    @media (min-width: $lg) {
+        max-height: 100vh;
+    }
+
+    .social-media-icons {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        margin: 0;
+        //width: 200px;
+        //height: 64px;
+        z-index: 10;
+        //margin-bottom: 0;
+
+        @media (min-width: $lg) {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 200px;
+            height: 64px;
+            margin: 0;
+        }
+    }
 
     button.play-button {
         z-index: 10;
