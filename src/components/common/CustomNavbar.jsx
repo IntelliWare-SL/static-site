@@ -32,7 +32,7 @@ const CustomNavbar = () => {
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about-us">About Us</NavLink>
           <NavLink to="/our-services">Our Services</NavLink>
-          <NavLink to="/?scroll=featured" className={({ isActive }) =>
+          <NavLink to="/?scroll=featured-projects" className={({ isActive }) =>
               isActive ? 'our-projects-active' : ""
           }> Our Projects </NavLink>
         </Nav>

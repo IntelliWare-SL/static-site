@@ -24,7 +24,7 @@ const ScheduleAMeetingSection = () => {
   }
 
   return (<section className="schedule-meeting-section pt-0 px-4 px-lg-5 pb-4 pb-lg-5">
-    <Container className="pt-2 pb-4 px-0 mx-0">
+    <Container className="pt-2 pb-4 px-0 px-md-2">
       <Row sm={12}
            className="justify-content-center text-center pt-0 pt-md-4 pb-3 align-items-center flex-column-reverse flex-lg-row px-0 mx-0">
         <Col sm={12} lg={6} className="px-0 pe-md-5 mb-0">
@@ -42,7 +42,7 @@ const ScheduleAMeetingSection = () => {
                 <Row xs={12} className="pt-2 pt-lg-4 pb-2">
                   {
                     timeSlots.map((timeSlot) =>
-                      <Col xs={6} className="mb-1 mb-md-2 px-2 px-md-3 py-2">
+                      <Col xs={6} className="mb-1 mb-md-2 px-2 px-md-3 py-2" key={timeSlot}>
                         <label className="w-100">
                           <input type="radio" name="timeSlot" className="card-input-element"/>
                           <div className="card-input p-4 text-center">
