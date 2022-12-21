@@ -12,7 +12,7 @@ const TestimonialCard = ({content, author}) => {
     <div className="testimonial-card pt-4 pb-3 pb-md-4 mb-0 d-flex justify-content-center px-4 px-md-5">
       <Row className="py-4 testimonial-card-content text-center px-0 px-md-5 justify-content-around">
         <Col className="px-0 quotes">
-          <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M3.74941 25.5999C2.1754 25.5999 0.899414 24.3239 0.899414 22.7499V8.49986C0.899414 4.30249 4.30205 0.899855 8.49941 0.899855V2.79985C5.35139 2.79985 2.79941 5.35183 2.79941 8.49986V14.1999H9.44941C11.0234 14.1999 12.2994 15.4758 12.2994 17.0499V22.7499C12.2994 24.3239 11.0234 25.5999 9.44941 25.5999H3.74941Z"
               fill="#50504F"/>
@@ -21,7 +21,7 @@ const TestimonialCard = ({content, author}) => {
               fill="#50504F"/>
           </svg>
         </Col>
-        <Col xs={10} className="px-0">
+        <Col xs={10} className="px-3">
           <p className="mb-3 mb-md-2 px-0">
             {content}
           </p>
@@ -47,7 +47,7 @@ const TestimonialCard = ({content, author}) => {
 const TestimonialsSection = () => {
   return (
     <section className="testimonials-section pt-2 pt-md-4 pb-3 pb-md-4 mb-2 mb-md-5">
-      <Container className="pt-5 pb-5">
+      <Container className="pt-4 pb-4 py-md-5">
         <Row sm={12} className="justify-content-center text-center mb-0 mb-md-2 pt-3  ">
           <Col sm={12}>
             <h2 className="section-title">Testimonials</h2>

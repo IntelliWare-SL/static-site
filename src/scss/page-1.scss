@@ -9,7 +9,6 @@
 
 .hero-section-home {
     min-height: fit-content;
-
     @media (min-width: $lg) {
         max-height: 100vh;
     }
@@ -163,7 +162,6 @@
 
             @media (min-width: $lg) {
                 //width: 218px;
-
             }
         }
     }
@@ -214,8 +212,12 @@
 .services-section {
     .section-subtitle {
         font-family: 'Outfit', sans-serif;
-        font-size: 1.1rem;
-        color: $color-d2
+        font-size: 0.95rem;
+        color: $color-d2;
+
+        @media (min-width: $md) {
+            font-size: 1.1rem;
+        }
     }
 
     .container .row {
@@ -277,17 +279,25 @@
 
     h2.section-title {
         color: $color-d2;
-        font-size: 3.2rem;
+        font-size: 2.6rem;
         font-weight: 600;
         line-height: 1.1;
+
+        @media (min-width: $md) {
+            font-size: 3.2rem;
+        }
     }
 
 
     h3.section-subtitle {
         font-family: 'Outfit', sans-serif;
         color: $color-d2;
-        font-size: 3.1rem;
+        font-size: 2.4rem;
         line-height: 1;
+
+        @media (min-width: $md) {
+            font-size: 3.1rem;
+        }
     }
 
     p {
@@ -316,13 +326,14 @@
     .testimonial-card {
         .testimonial-card-content {
             width: 100%;
-            font-size: 1.15rem;
+            font-size: 0.95rem;
             font-weight: 500;
             color: $color-d3;
             line-height: 1.65;
 
             @media (min-width: $md) {
                 width: 75%;
+                font-size: 1.15rem;
             }
 
             .quotes {
@@ -331,10 +342,14 @@
         }
 
         .testimonial-card-author {
-            font-size: 1.5rem;
+            font-size: 1.1rem;
             font-weight: 600;
             color: $color-d2;
             line-height: 1.5;
+
+            @media (min-width: $md) {
+                font-size: 1.5rem;
+            }
         }
     }
 
