@@ -2,12 +2,13 @@
     .hero-image-caption {
         text-align: center;
         color: $color-d6;
-        font-size: 1.1rem;
-        line-height: 1.7;
+        font-size: 1.05rem;
+        line-height: 1.5;
 
         @media (min-width: $md) {
             text-align: left;
             font-size: 1.12rem;
+            line-height: 1.7;
         }
     }
 

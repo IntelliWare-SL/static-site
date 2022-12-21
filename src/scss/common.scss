@@ -251,7 +251,12 @@
     border: none;
 
     h4 {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
+
+        @media (min-width: $md) {
+            font-size: 1.4rem;
+
+        }
     }
 
     h5 {
@@ -260,6 +265,11 @@
 
     p {
         color: $color-d3;
+        font-size: 0.9rem;
+
+        @media (min-width: $md) {
+            font-size: 1rem;
+        }
     }
 
     a {

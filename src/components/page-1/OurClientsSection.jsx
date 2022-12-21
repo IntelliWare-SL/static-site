@@ -6,8 +6,8 @@ import ClientsMap from "../../../src/assets/images/clients-map.png";
 const OurClientsSection = () => {
   return (
     <section className="clients-section px-4 px-md-0">
-      <Container className="pt-4 pb-4 px-0">
-        <Row className="flex-column-reverse flex-md-row px-0">
+      <Container className="pt-4 pb-4 px-1 px-md-0">
+        <Row className="flex-column-reverse flex-md-row px-2 px-md-0">
           <Col xs={12} md={6} xxl={6} className="flex px-0 pe-md-4">
             <img src={ClientsMap}
                  className="clients-map px-0 px-md-2 py-1 my-2 pt-sm-3 mt-sm-3 pt-md-5 mt-md-5 pt-lg-2 mt-lg-2 pt-xl-3"
