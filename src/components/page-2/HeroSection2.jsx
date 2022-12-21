@@ -5,14 +5,14 @@ import CustomButton from "../common/CustomButton";
 
 const HeroSection2 = () => {
   return (
-    <section className="pt-5 pt-md-4 hero-common hero-section">
+    <section className="hero-common hero-section">
       <div className="hero-bg-image">
         <img src={bgCurves} alt="" width="100%"/>
       </div>
-      <Container className="hero-section px-0 pt-3 pb-4 pb-md-5">
-        <Row className="m-0 p-0 pt-5 h-100 align-items-center">
+      <Container className="hero-section px-0 pt-0 pb-4 pb-md-5">
+        <Row className="m-0 p-0 pt-4 pt-md-3 h-100 align-items-center">
           <Col sm={12} md={6} className="hero-left px-4 px-md-2 pe-md-5 h-100">
-            <section className="px-md-0 hero-content pb-3 ps-md-1">
+            <section className="pe-md-0 ps-md-1 hero-content pb-3">
               <h6 className="breadcrumbs">Home / About Us</h6>
               <h1 className="text-white hero-title py-2">We're Not Afraid
                 <br/>
@@ -35,8 +35,8 @@ const HeroSection2 = () => {
               <CustomButton text={"Learn More"} link={"/about-us"} customClasses={"btn-lg d-none d-md-inline"}/>
             </section>
           </Col>
-          <Col sm={12} md={6} className="hero-right px-4 px-md-3 h-100 d-flex flex-column-reverse flex-md-column">
-            <div className="pt-5">
+          <Col sm={12} md={6} className="hero-right px-4 px-md-2 h-100 d-flex flex-column-reverse flex-md-column">
+            <div className="pt-5 pe-1">
               <div className="ps-2 mb-3 pb-1 pb-md-0">
                 <div className="v-line float-start"/>
                 <div className="media-wrapper about-us-image">

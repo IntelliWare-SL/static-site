@@ -24,8 +24,8 @@ const NavbarOptions = () => {
               <NavLink to="/our-team" onClick={handleLinkClick}>Our Team</NavLink><br/>
             </Col>
             <Col sm={12} md={6} className="navbar-options-col">
-              <NavLink to="/featured-projects" onClick={handleLinkClick}>Featured Projects</NavLink><br/>
-              <NavLink to="/book-a-meeting" onClick={handleLinkClick}>Book A Meeting</NavLink><br/>
+              <NavLink to="/?scroll=featured-projects" onClick={handleLinkClick}>Featured Projects</NavLink><br/>
+              {/*<NavLink to="/book-a-meeting" onClick={handleLinkClick}>Book A Meeting</NavLink><br/>*/}
               <NavLink to="/contact-us" onClick={handleLinkClick}>Contact Us</NavLink><br/>
             </Col>
           </Row>

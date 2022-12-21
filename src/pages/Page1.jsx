@@ -15,7 +15,7 @@ const Page1 = () => {
     const RefFeaturedProjects = useRef(null)
 
     const scrollToFeatured=()=>{
-        if(searchParams.get('scroll')==='featured' && RefFeaturedProjects?.current){
+        if(searchParams.get('scroll')==='featured-projects' && RefFeaturedProjects?.current){
             RefFeaturedProjects.current.scrollIntoView()
         }else{
             window.scrollTo(0, 0);
@@ -34,9 +34,8 @@ const Page1 = () => {
       <ServicesSection/>
       <WhyUsSection/>
         <div ref={RefFeaturedProjects}>
-            <FeaturedProjectsSection />
+            <FeaturedProjectsSection ref={RefFeaturedProjects}/>
         </div>
-
       <OurClientsSection/>
       <TestimonialsSection/>
       <ContactUsSection/>

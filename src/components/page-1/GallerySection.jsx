@@ -11,7 +11,7 @@ const GallerySection = () => {
           </Col>
         </Row>
         <Row className="gallery-photos pt-4 pb-3">
-          <Col xs={3} className="px-1 px-sm-2 px-md-2 ps-0">
+          <Col xs={3} className="px-1 px-sm-2 px-md-3 ps-0">
             <div className="h-line mx-auto ms-0"></div>
             <div className="window">
               <img

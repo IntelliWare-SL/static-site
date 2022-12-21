@@ -5,11 +5,11 @@ import CustomButton from "../common/CustomButton";
 
 const WhatWeDoSection = () => {
   return (
-    <section className="what-we-do-section bg-white py-3 py-md-5">
-      <Container className="pt-3 pb-4 py-md-5 px-4 px-sm-3">
+    <section className="what-we-do-section bg-white py-2 py-sm-3 py-md-5">
+      <Container className="pt-3 pb-4 py-md-5 px-4 px-sm-2">
         <Row className="flex-column-reverse flex-md-row mx-0">
           <Col xs={12} md={6} className="flex px-0 pe-md-4">
-            <Row xs={12} className="justify-content-between justify-content-lg-start gap-0 px-1 px-md-0">
+            <Row xs={12} className="justify-content-between justify-content-lg-start gap-0 px-1 px-md-0 pt-1 pt-md-0">
               <Tile title="Website Development" icon={
                 <svg width="26" height="26" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clipPath="url(#clip0_487_11869)">
@@ -124,9 +124,9 @@ const WhatWeDoSection = () => {
               } content="Track what’s working, identify areas for improvement, and use insights to make informed"/>
             </Row>
           </Col>
-          <Col xs={12} md={6} className="d-flex flex-column px-0 ps-md-4 justify-content-center pb-2 pb-md-0">
+          <Col xs={12} md={6} className="d-flex flex-column px-0 ps-md-4 justify-content-center pb-2 pb-md-2 pe-md-1">
             <h2 className="my-2 section-title">What we do</h2>
-            <p className="section-subtitle my-2 my-md-3 py-2">
+            <p className="section-subtitle my-2 my-md-3 pt-2 pb-2 pb-md-4">
               At Reamer Made, we understand that construction can be a tough business - but it doesn't have to be. We
               are dedicated to helping you tell your story and branding yourself in the industry.
             </p>

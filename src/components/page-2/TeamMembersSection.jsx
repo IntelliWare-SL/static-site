@@ -5,7 +5,7 @@ import TeamMemberCard from "../common/TeamMemberCard";
 const TeamMembersSection = () => {
   return (
     <section className="team-members-section px-3 px-md-5 pt-3 pb-2 mb-0 mb-md-2">
-      <Container className="pt-0 pt-md-2 pb-2 pb-md-5 px-0 mx-0">
+      <Container className="pt-0 pt-md-2 pb-2 pb-md-5 px-0 px-md-2">
         <Row sm={12} className="justify-content-center text-center pt-0 pb-4">
           <Col sm={12}>
             <h2 className="section-title pb-2 mb-3">Meet Our Team</h2>

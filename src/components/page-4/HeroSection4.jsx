@@ -6,12 +6,12 @@ import CustomButton from "../common/CustomButton";
 const HeroSection4 = () => {
   return (
     <section className="hero-common hero-section">
-      <div className="hero-bg-image pt-5">
+      <div className="hero-bg-image pt-5 pt-md-4">
         <img src={bgCurves} alt="" width="100%"/>
       </div>
       <Container className="hero-section px-0 pb-4 pb-md-5 pb-md-0">
         <Row className="m-0 p-0">
-          <Col sm={12} md={6} className="hero-left px-4 px-md-0 d-flex my-auto px-2 ps-md-2 pe-md-5">
+          <Col sm={12} md={6} className="hero-left px-4 px-md-0 d-flex my-auto ps-md-2 pe-md-2">
             <section className="hero-content align-self-center pt-4 pb-4 ps-md-1">
               <h6 className="breadcrumbs">Home / Contact Us</h6>
               <h1 className="text-white hero-title py-2 py-md-1">
@@ -27,8 +27,8 @@ const HeroSection4 = () => {
               </div>
             </section>
           </Col>
-          <Col sm={12} md={6} className="hero-right px-4 ps-md-5  h-100">
-            <div className="mb-3 ms-2">
+          <Col sm={12} md={6} className="hero-right px-4 px-md-2 ps-md-5 h-100">
+            <div className="mb-3 ms-2 pe-1">
               <div className="v-line float-start"/>
               <div className="media-wrapper">
                 <img
