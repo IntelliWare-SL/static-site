@@ -1,3 +1,15 @@
+.error-label {
+    color: $color-cta;
+}
+
+.error-input {
+    border: 1px solid $color-cta!important;
+}
+
+.p-invalid {
+    border-color: #e24c4c!important;
+}
+
 .p-hidden-accessible {
     display: none !important;
 }
@@ -109,8 +121,8 @@
 }
 
 .p-inputtext:enabled:focus, input:enabled:focus, textarea:enabled:focus {
-    border: 1.2px solid lighten($color-cta, 3%);
-    box-shadow: 0 0 0 .2rem lighten($color-cta, 30%);
+    border: 1.5px solid $color-cta;
+    box-shadow: 0 0 0 .25rem lighten($color-cta, 30%);
     outline: 0 none;
     outline-offset: 0
 }
@@ -120,14 +132,15 @@ textarea.p-inputtext, textarea {
 }
 
 .p-inputwrapper-filled.p-multiselect.p-multiselect-clearable .p-multiselect-label {
-    padding-right: 1.75rem
+    padding-right: 1.75rem;
 }
 
 .p-multiselect {
+    cursor: pointer;
     background: #fff;
     border: 1.2px solid #ced4da;
     border-radius: 0 !important;
-    transition: background-color 0.15s, border-color 0.15s, box-shadow .15s
+    transition: background-color 0.15s, border-color 0.15s, box-shadow .15s;
 }
 
 .p-multiselect {
