@@ -4,8 +4,8 @@ import BannerOverImage from "../common/BannerOverImage";
 
 const ContactUsSection = () => {
   return (
-    <section className="contact-us-section bg-white pt-5 pt-md-3 pb-4 mb-3 mb-md-3">
-      <Container className="mb-2 mb-md-5 px-2">
+    <section className="contact-us-section bg-white pt-4 pt-md-5 pt-md-3 pb-4 mb-2 mb-md-3 px-4">
+      <Container className="mb-2 mb-md-5 px-0 mx-0">
         <BannerOverImage bannerTitle="Interested in our services?"
                          bannerContent="At Reamer Made, we understand that construction can be a tough business - but it
                          doesn't have to be. We are dedicated to helping you tell your story and branding yourself in the

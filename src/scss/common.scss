@@ -268,6 +268,7 @@
     margin: 2px;
     background: white;
     color: $color-d2;
+    min-height: 100%;
 
     svg {
         fill: $color-d2;
@@ -487,6 +488,7 @@
             height: 520px;
 
             img, video {
+                object-position: center;
                 object-fit: cover;
             }
         }
@@ -500,9 +502,10 @@
             }
 
             img, video {
+                object-position: center;
                 object-fit: cover;
                 height: unset;
-                width: 200%;
+                width: 150%;
 
                 @media (min-width: $md) {
                     width: unset;
@@ -912,6 +915,14 @@ footer {
         @media (min-width: $md) {
             height: 267px;
         }
+    }
+
+    #photo-1, #photo-2 {
+        padding-left: 0;
+    }
+
+    #photo-5, #photo-6 {
+        padding-right: 0;
     }
 
     #photo-5 {

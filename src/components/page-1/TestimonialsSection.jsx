@@ -9,7 +9,7 @@ SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
 
 const TestimonialCard = ({content, author}) => {
   return (
-    <div className="testimonial-card pt-4 pb-4 d-flex justify-content-center px-3 px-md-5">
+    <div className="testimonial-card pt-4 pb-3 pb-md-4 mb-0 d-flex justify-content-center px-4 px-md-5">
       <Row className="py-4 testimonial-card-content text-center px-0 px-md-5 justify-content-around">
         <Col className="px-0 quotes">
           <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">

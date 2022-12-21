@@ -24,10 +24,10 @@ const ScheduleAMeetingSection = () => {
   }
 
   return (<section className="schedule-meeting-section pt-0 px-4 px-lg-5 pb-4 pb-lg-5">
-    <Container className="pt-2 pb-4 px-2">
+    <Container className="pt-2 pb-4 px-0 mx-0">
       <Row sm={12}
-           className="justify-content-center text-center pt-4 pb-3 align-items-center flex-column-reverse flex-lg-row">
-        <Col sm={12} lg={6} className="pe-3 pe-md-5 mb-4 mb-lg-0">
+           className="justify-content-center text-center pt-0 pt-md-4 pb-3 align-items-center flex-column-reverse flex-lg-row px-0 mx-0">
+        <Col sm={12} lg={6} className="px-0 pe-md-5 mb-0">
           <div className="meeting-form-card p-4 p-md-5 text-start">
             <div className="form p-4 pb-2">
               <h3 className="form-title mb-2 mb-lg-4">Best time for work?</h3>
@@ -62,7 +62,7 @@ const ScheduleAMeetingSection = () => {
             </div>
           </div>
         </Col>
-        <Col sm={12} lg={6} className="ps-3 ps-md-5 text-start mt-0 mb-4 mb-lg-0">
+        <Col sm={12} lg={6} className="px-0 ps-md-5 text-start mt-0 mb-4 mb-lg-0 px-4 px-md-0">
           <h2 className="section-title mb-4">Schedule A Meeting</h2>
           <p className="section-subtitle mb-3 pt-2 pb-4">
             At Reamer Made, we understand that construction can be a tough business - but it doesn't have to be. We
