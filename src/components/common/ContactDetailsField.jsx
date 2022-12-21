@@ -36,7 +36,7 @@ const ContactDetailsField = ({type, icon, line1, line2}) => {
   return (
     <Row xs={12}
          className="contact-details-field justify-content-center justify-content-md-start align-items-center mb-4">
-      <Col xs={3} sm={3} md={4} lg={2} className="px-0 text-center">
+      <Col xs={2} sm={3} md={4} lg={2} className="px-0 text-center">
         <div className="contact-icon-wrapper h-100 w-100">
           {icon}
         </div>

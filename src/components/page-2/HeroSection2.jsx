@@ -9,15 +9,15 @@ const HeroSection2 = () => {
       <div className="hero-bg-image">
         <img src={bgCurves} alt="" width="100%"/>
       </div>
-      <Container className="hero-section px-0 pt-3 pb-5">
+      <Container className="hero-section px-0 pt-3 pb-4 pb-md-5">
         <Row className="m-0 p-0 pt-5 h-100 align-items-center">
           <Col sm={12} md={6} className="hero-left px-4 px-md-2 pe-md-5 h-100">
-            <section className="hero-content pb-3 ps-md-1">
+            <section className="px-md-0 hero-content pb-3 ps-md-1">
               <h6 className="breadcrumbs">Home / About Us</h6>
               <h1 className="text-white hero-title py-2">We're Not Afraid
                 <br/>
                 Of <span>A Little Dirt</span></h1>
-              <div className="hero-text py-2">
+              <div className="hero-text py-1">
                 <p className="py-2">
                   At Reamer Made, we understand the unique needs of the construction industry. Our founder, Allison
                   Murrell, started working in the industry in 2014 alongside her father at their family’s
@@ -37,7 +37,7 @@ const HeroSection2 = () => {
           </Col>
           <Col sm={12} md={6} className="hero-right px-4 px-md-3 h-100 d-flex flex-column-reverse flex-md-column">
             <div className="pt-5">
-              <div className="ps-2 mb-2">
+              <div className="ps-2 mb-3 pb-1 pb-md-0">
                 <div className="v-line float-start"/>
                 <div className="media-wrapper about-us-image">
                   <img
@@ -47,7 +47,7 @@ const HeroSection2 = () => {
                 <div className="h-line"></div>
               </div>
               <CustomButton text={"Learn More"} link={"/about-us"}
-                            customClasses={"mt-5 mt-md-0 btn-lg d-block d-md-none text-center"}/>
+                            customClasses={"mt-4 mt-md-0 btn-lg d-block d-md-none text-center"}/>
             </div>
             <p className="hero-text pt-0 pt-md-1 pb-0 mb-0 text-white hero-image-caption">
               By specializing in web development, digital marketing, and defining your brand – Reamer Made’s goal is

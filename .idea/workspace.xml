@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="a9b8072c-6a08-4822-ae3c-868afb3e6685" name="Changes" comment="Implement Get in touch form functionality">
       <change beforePath="$PROJECT_DIR$/src/components/page-4/GetInTouchSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page-4/GetInTouchSection.jsx" afterDir="false" />
     </list>

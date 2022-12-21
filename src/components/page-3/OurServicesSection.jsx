@@ -4,9 +4,9 @@ import ServiceCard from "../common/ServiceCard";
 
 const OurServicesSection = () => {
   return (
-    <section className="our-services-section pt-2 pt-md-5 px-2">
-      <Container className="py-5 px-0 px-md-5">
-        <Row sm={12} className="justify-content-center text-center pt-2 pb-2">
+    <section className="our-services-section pt-2 pt-md-5 px-4 px-md-0">
+      <Container className="py-5 px-0 mx-0 px-md-5">
+        <Row sm={12} className="justify-content-center text-center pt-2 pb-2 px-0 mx-0">
           <Col sm={12}>
             <h2 className="section-title mb-2">Our Services</h2>
           </Col>

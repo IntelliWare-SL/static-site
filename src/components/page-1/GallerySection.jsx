@@ -3,15 +3,15 @@ import React from "react";
 
 const GallerySection = () => {
   return (
-    <section className="gallery-section bg-white pb-3">
-      <Container className="py-4 px-1">
+    <section className="gallery-section bg-white px-4 px-md-0 pb-2 pb-md-3">
+      <Container className="py-4">
         <Row sm={12} className="justify-content-center text-center mb-3">
           <Col sm={12}>
             <h2 className="section-title">Made From The Ground Up</h2>
           </Col>
         </Row>
-        <Row className="gallery-photos pt-4 pb-3 px-2">
-          <Col xs={3} className="px-1 px-sm-2 px-md-2">
+        <Row className="gallery-photos pt-4 pb-3">
+          <Col xs={3} className="px-1 px-sm-2 px-md-2 ps-0">
             <div className="h-line mx-auto ms-0"></div>
             <div className="window">
               <img
@@ -27,7 +27,7 @@ const GallerySection = () => {
             </div>
             <div className="h-line mx-auto"></div>
           </Col>
-          <Col xs={3} className="px-1 px-sm-2 px-md-3">
+          <Col xs={3} className="px-1 px-sm-2 px-md-3 pe-0">
             <div className="h-line mx-auto me-0"></div>
             <div className="window">
               <img

@@ -71,6 +71,7 @@ const GetInTouchSection = () => {
     }
   }
 
+
   const validate = (values) => {
     const errors = {};
 

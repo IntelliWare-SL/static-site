@@ -4,8 +4,8 @@ import FeatureCard from "../common/FeatureCard";
 
 const WhyChooseUsSection = () => {
   return (
-    <section className="why-choose-us-section mt-2 pt-3 px-5 pb-3">
-      <Container className="py-5 px-0 px-md-2 px-lg-5">
+    <section className="why-choose-us-section mt-2 pt-2 px-4 px-md-0 pb-1 pb-md-3">
+      <Container className="pt-5 pb-4 py-md-5 px-0 px-md-2 px-lg-5">
         <Row sm={12} className="justify-content-center text-center pt-1 pb-4 py-md-4">
           <Col sm={12}>
             <h2 className="section-title mb-4">Why Choose Us?</h2>

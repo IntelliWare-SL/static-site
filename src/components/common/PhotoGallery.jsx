@@ -3,7 +3,7 @@ import React from "react";
 
 const PhotoGallery = () => {
   return (
-    <Row className="photo-row flex-wrap py-4">
+    <Row className="photo-row flex-wrap pt-4 pb-2 pb-md-4 px-0 mx-0">
       <Col xs={4} className="px-0">
         <div className="window" id="photo-1">
           <img src="https://www.dfwurbanrealty.com/uploads/bigstock-external-view-of-a-contemporar-61564541_650.jpg"
