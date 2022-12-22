@@ -1,6 +1,6 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import React from 'react'
-import CustomButton from '../common/CustomButton'
+import CustomAnimatedButton from '../common/CustomAnimatedButton'
 import ClientsMap from '../../../src/assets/images/clients-map.png'
 import { Fade } from 'react-awesome-reveal'
 
@@ -10,7 +10,7 @@ const OurClientsSection = () => {
             <Container className="pt-4 pb-4 px-1 px-md-0">
                 <Row className="flex-column-reverse flex-md-row px-2 px-md-0">
                     <Col xs={12} md={6} xxl={6} className="flex px-0 pe-md-4">
-                        <Fade duration={3000}>
+                        <Fade duration={3000} triggerOnce={true}>
                             <img
                                 src={ClientsMap}
                                 className="clients-map px-0 px-md-2 py-1 my-2 pt-sm-3 mt-sm-3 pt-md-5 mt-md-5 pt-lg-2 mt-lg-2 pt-xl-3"
@@ -36,7 +36,7 @@ const OurClientsSection = () => {
                             there, using strategies that are proven to be
                             effective to help your business grow.
                         </p>
-                        <CustomButton
+                        <CustomAnimatedButton
                             link={''}
                             text={'Explore More'}
                             customClasses={'me-auto mb-1'}

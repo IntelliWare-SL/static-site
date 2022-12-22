@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import React from 'react'
 
-const CustomButton = ({
+const CustomAnimatedButton = ({
     filled = true,
     showIcon = true,
     link,
@@ -38,4 +38,4 @@ const CustomButton = ({
     )
 }
 
-export default CustomButton
+export default CustomAnimatedButton

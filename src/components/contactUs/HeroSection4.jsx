@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import bgCurves from '../../assets/images/bg-curves.png'
-import CustomButton from '../common/CustomButton'
+import CustomAnimatedButton from '../common/CustomAnimatedButton'
 
 const HeroSection4 = () => {
     return (
@@ -30,7 +30,7 @@ const HeroSection4 = () => {
                                 </p>
                             </div>
                             <div className="hero-actions d-inline-flex">
-                                <CustomButton
+                                <CustomAnimatedButton
                                     link={'/about-us'}
                                     text={'Learn More'}
                                 />

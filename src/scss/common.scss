@@ -968,3 +968,56 @@ footer {
         }
     }
 }
+
+.button-container{
+    display: flex;
+    .button{
+        cursor: pointer;
+        background: #FF4548;
+        align-items: center;
+        display: flex;
+        padding: 16px 20px 16px 25px;
+    }
+
+    .box{
+        fill: #FF4548;
+        transition: fill 0.25s, transform 0.25s;
+    }
+    .button:hover .box{
+        fill: white;
+        transform: rotate(-90deg) scale(1.1);
+    }
+
+    .arrow{
+        width: 30px;
+        position: absolute;
+        top:12px;
+        left:-7px;
+        transition:width 0.25s, left 0.25s, fill 0.25s, transform 0.25s;
+        fill: white;
+        z-index: 10;
+    }
+    .button:hover .arrow{
+        width: 30px;
+        fill: #FF4548;
+        left: 3px;
+        transform: scale(0.7);
+    }
+    .button-text{
+        margin-left: 15px;
+        font-weight: 600 !important;
+        font-size: 16px;
+        color: white;
+    }
+}
+
+.watermark-img{
+    position: absolute;
+    top: 440px;
+    right: 0px;
+    width: 370px;
+    display: none;
+    @media (min-width: $lg) {
+        display: block;
+    }
+}

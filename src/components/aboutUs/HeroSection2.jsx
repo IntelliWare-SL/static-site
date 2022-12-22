@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import bgCurves from '../../assets/images/bg-curves.png'
-import CustomButton from '../common/CustomButton'
+import CustomAnimatedButton from '../common/CustomAnimatedButton'
 
 const HeroSection2 = () => {
     return (
@@ -41,7 +41,7 @@ const HeroSection2 = () => {
                                     companies in this industry.
                                 </p>
                             </div>
-                            <CustomButton
+                            <CustomAnimatedButton
                                 text={'Learn More'}
                                 link={'/about-us'}
                                 customClasses={'btn-lg d-none d-md-inline'}
@@ -66,7 +66,7 @@ const HeroSection2 = () => {
                                 </div>
                                 <div className="h-line"></div>
                             </div>
-                            <CustomButton
+                            <CustomAnimatedButton
                                 text={'Learn More'}
                                 link={'/about-us'}
                                 customClasses={

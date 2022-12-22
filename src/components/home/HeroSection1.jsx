@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import sampleIntro from '../../assets/videos/HomePage-Video-web-version.mov'
 import bgCurves from '../../assets/images/bg-curves.png'
 import SocialMediaIcons from '../common/SocialMediaIcons'
-import CustomButton from '../common/CustomButton'
+import CustomAnimatedButton from '../common/CustomAnimatedButton'
 
 const HeroSection1 = () => {
     return (
@@ -29,7 +29,7 @@ const HeroSection1 = () => {
                                 business grow.
                             </h5>
                             <div className="hero-actions d-inline-flex">
-                                <CustomButton
+                                <CustomAnimatedButton
                                     link={'/contact-us'}
                                     text={'Contact Us'}
                                 />

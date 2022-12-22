@@ -1,11 +1,22 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import Tile from '../common/Tile'
 import React from 'react'
-import CustomButton from '../common/CustomButton'
+import CustomAnimatedButton from '../common/CustomAnimatedButton'
+import watermark from '../../assets/images/watermark-logo.png'
+import bgCurves from '../../assets/images/bg-curves.png'
 
 const WhatWeDoSection = () => {
     return (
-        <section className="what-we-do-section bg-white py-2 py-sm-3 py-md-5">
+        <section
+            style={{ position: 'relative' }}
+            className="what-we-do-section bg-white py-2 py-sm-3 py-md-5"
+        >
+            <img
+                className="watermark-img"
+                src={watermark}
+                alt=""
+                width="100%"
+            />
             <Container className="pt-3 pb-4 py-md-5 px-4 px-sm-2">
                 <Row className="flex-column-reverse flex-md-row mx-0">
                     <Col xs={12} md={6} className="flex px-0 pe-md-4">
@@ -161,7 +172,7 @@ const WhatWeDoSection = () => {
                             are dedicated to helping you tell your story and
                             branding yourself in the industry.
                         </p>
-                        <CustomButton
+                        <CustomAnimatedButton
                             link={'/about-us'}
                             text={'Know More'}
                             customClasses={'me-auto'}
