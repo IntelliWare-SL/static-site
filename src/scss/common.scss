@@ -913,7 +913,7 @@ footer {
         background-color: white;
         padding: 5px;
         cursor: pointer;
-
+        overflow: hidden;
         @media (min-width: $md) {
             padding: 10px;
         }
@@ -923,12 +923,14 @@ footer {
         width: 100%;
         height: 100%;
         object-fit: cover;
-
+        transition: transform 0.3s;
+        &:hover{
+            transform: scale(1.2);
+        }
     }
 
     #photo-1, #photo-4 {
         height: 143px;
-
         @media (min-width: $md) {
             height: 500px;
         }
@@ -965,34 +967,4 @@ footer {
             height: 192px;
         }
     }
-}
-
-.button__r:after {
-    background: #fff;
-}
-.button__r:before, .button__r span {
-    display: block;
-    will-change: transform;
-    transition: transform .25s ease-out;
-}
-.button__r:hover:after, .button__r:hover:before {
-    transform: rotate(-45deg) scale(1.2);
-}
-.button__r:after {
-    background: #767860;
-    transform: scale(.01) rotate(45deg);
-}
-.button__r:after, .button__r:before {
-    left: 0;
-    top: 0.27vw;
-    width: 1.944vw;
-    height: 1.944vw;
-    content: "";
-    position: absolute;
-    transform: rotate(45deg);
-}
-.button__r:after, .button__r:before, .button__r span {
-    display: block;
-    will-change: transform;
-    transition: transform .25s ease-out;
 }
