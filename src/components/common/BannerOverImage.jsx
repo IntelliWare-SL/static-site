@@ -30,8 +30,7 @@ const BannerOverImage = ({
               <CustomButton link={buttonLink} text={buttonText}/>
             </div>
           </div>
-          {/*<div*/}
-          {/*  className={alignBannerRight ? "h-line float-end" : "h-line float-start"}></div>*/}
+
         </div>
       </Col>
     </Row>
