@@ -913,9 +913,16 @@ footer {
         background-color: white;
         padding: 5px;
 
+        transition: transform 10s;
+
         @media (min-width: $md) {
             padding: 10px;
         }
+        :hover {
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+
     }
 
     .window img {

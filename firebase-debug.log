@@ -1,0 +1,87 @@
+[debug] [2022-12-22T05:47:52.406Z] ----------------------------------------------------------------------
+[debug] [2022-12-22T05:47:52.407Z] Command:       /Users/kasun7153/.nvm/versions/node/v16.13.1/bin/node /Users/kasun7153/.nvm/versions/node/v16.13.1/bin/firebase deploy
+[debug] [2022-12-22T05:47:52.407Z] CLI Version:   11.16.1
+[debug] [2022-12-22T05:47:52.407Z] Platform:      darwin
+[debug] [2022-12-22T05:47:52.407Z] Node Version:  v16.13.1
+[debug] [2022-12-22T05:47:52.408Z] Time:          Thu Dec 22 2022 11:17:52 GMT+0530 (India Standard Time)
+[debug] [2022-12-22T05:47:52.408Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-22T05:47:52.439Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-22T05:47:52.440Z] > authorizing via signed-in user (intelliware.sl@gmail.com)
+[debug] [2022-12-22T05:47:52.440Z] [iam] checking project static-site-282ac for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-12-22T05:47:52.441Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-site-282ac:testIamPermissions [none]
+[debug] [2022-12-22T05:47:52.441Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-site-282ac:testIamPermissions x-goog-quota-user=projects/static-site-282ac
+[debug] [2022-12-22T05:47:52.441Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-site-282ac:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-22T05:47:53.623Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-site-282ac:testIamPermissions 200
+[debug] [2022-12-22T05:47:53.623Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/static-site-282ac:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-22T05:47:53.624Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/static-site-282ac [none]
+[debug] [2022-12-22T05:47:54.077Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/static-site-282ac 200
+[debug] [2022-12-22T05:47:54.077Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/static-site-282ac {"projectId":"static-site-282ac","projectNumber":"480954645981","displayName":"static-site","name":"projects/static-site-282ac","resources":{"hostingSite":"static-site-282ac"},"state":"ACTIVE","etag":"1_03939370-44da-4638-a7f5-09c6180c7613"}
+[info] 
+[info] === Deploying to 'static-site-282ac'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-12-22T05:47:54.080Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/static-site-282ac/versions [none]
+[debug] [2022-12-22T05:47:54.080Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/static-site-282ac/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-12-22T05:47:55.304Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/static-site-282ac/versions 200
+[debug] [2022-12-22T05:47:55.304Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/static-site-282ac/versions {"name":"projects/480954645981/sites/static-site-282ac/versions/adb5110d22c57445","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[static-site-282ac]: beginning deploy... 
+[info] i  hosting[static-site-282ac]: found 22 files in build 
+[debug] [2022-12-22T05:47:55.308Z] [hosting] uploading with 200 concurrency
+[debug] [2022-12-22T05:47:56.300Z] [hosting] hash cache [YnVpbGQ] stored for 22 files
+[debug] [2022-12-22T05:47:56.301Z] [hosting][hash queue][FINAL] {"max":989,"min":7,"avg":74.68181818181819,"active":0,"complete":22,"success":22,"errored":0,"retried":0,"total":22,"elapsed":992}
+[debug] [2022-12-22T05:47:56.301Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/480954645981/sites/static-site-282ac/versions/adb5110d22c57445:populateFiles [none]
+[debug] [2022-12-22T05:47:56.301Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/480954645981/sites/static-site-282ac/versions/adb5110d22c57445:populateFiles {"files":{"/asset-manifest.json":"04e2ee41167cd04994e4a62e829ce6a46b48a2252bd932313f54f3b9ac35140b","/robots.txt":"391d14b3c2f8c9143a27a28c7399585142228d4d1bdbe2c87ac946de411fa9a2","/static/js/787.511411a2.chunk.js":"ea7415e18fb3e603975abc4b24b699599964051ab49081ebd99998bdc0c82322","/manifest.json":"341d52628782f8ac9290bbfc43298afccb47b7cbfcee146ae30cf0f46bc30900","/favicon.ico":"9ea923216cbcc53b38f7436e8764d96a1238358e3f106e8b26b2597c62ebd571","/static/js/main.f1413ed7.js.LICENSE.txt":"ab1759b646d591f68369bebc7b350e7bffc581d69a5f919806785885c89f3443","/index.html":"ce74d7a391f9438e78dec38d101d223f8ee359317a9253667dca1556e7c31c2b","/static/js/787.511411a2.chunk.js.map":"d3b39c9406dd547d142910552700b2c68bea94db2ec66fcb926eec9da1a7befe","/logo192.png":"f6aef4f5a5a2bacee3883e2ba4ebe48a7889c072439a918c495ab63bb2be46ed","/static/media/bg-curves.7e71310db7afc27cf7e6.png":"c61e75f0a8603d1611df62335d96882d28fc0d84784b2885fa641da8ca59d0b7","/static/media/primeicons.78172950b335ccdb94e2.woff2":"49b29c291d7c67914e40f3b2d619dcdc80a0a1c7cca38560674d773f3f623e01","/static/media/primeicons.d44157bdfa026dc877af.eot":"502db48d0ea9f38299485b5f9a45fcc0f4567abb671fe1fbd9d53d0c575eaba1","/static/media/primeicons.10d3152104f2208ac82a.woff":"f8e3fccb99d8be384abe85987a75a229d3b6055462707d83209ebda941e74dc5","/static/media/primeicons.ea5358601d0a3fd6670b.ttf":"d2138cb7de8de0a79ef85555d9bf0f92a5ca95e8c3d8486a0f627d030bf02533","/static/css/main.9f646494.css":"c7c709925134ab41dd6b35e3b6b69c0c17d391c8386f3ce22d32a429f2573ee5","/logo512.png":"f6017d2d4ef628d174415d0608b5d14c2666276a6489d88fb51fe9ab2a721a5b","/static/media/clients-map.ef09e34ca06539c69863.png":"86723f82751b8a24a52bcdec2e90bc233063dd019359ad0e474da7b11dfb57dd","/static/media/primeicons.e1441b135b3ca9ad643c.svg":"dbe2bddd845c88d19cfd67030908df14a50459e444795fabbb5a016c8b027f11","/static/css/main.9f646494.css.map":"36cef698fca607fdaf351f4458df2998c3683044f250d0525eacc285c9c04601","/static/js/main.f1413ed7.js":"3406bb8118dc90e5bd72366052a3a0fe9bfdf82ac244fd6c6a16d2001bcb5e56","/static/js/main.f1413ed7.js.map":"e1d8ce19e8fea84f1122ca594c42efdc3b86199dcae1009cd23c9f11d43b91f1","/static/media/HomePage-Video-web-version.51e66fa4986b7968f794.mov":"d2ad7f410e6251b148ea74234b46a7a81ff6aa2c41defb211b1024a4105de7ef"}}
+[debug] [2022-12-22T05:47:56.957Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/480954645981/sites/static-site-282ac/versions/adb5110d22c57445:populateFiles 200
+[debug] [2022-12-22T05:47:56.958Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/480954645981/sites/static-site-282ac/versions/adb5110d22c57445:populateFiles {"uploadRequiredHashes":["04e2ee41167cd04994e4a62e829ce6a46b48a2252bd932313f54f3b9ac35140b","ce74d7a391f9438e78dec38d101d223f8ee359317a9253667dca1556e7c31c2b","3406bb8118dc90e5bd72366052a3a0fe9bfdf82ac244fd6c6a16d2001bcb5e56","e1d8ce19e8fea84f1122ca594c42efdc3b86199dcae1009cd23c9f11d43b91f1"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files"}
+[debug] [2022-12-22T05:47:56.958Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/04e2ee41167cd04994e4a62e829ce6a46b48a2252bd932313f54f3b9ac35140b [none]
+[debug] [2022-12-22T05:47:56.958Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/04e2ee41167cd04994e4a62e829ce6a46b48a2252bd932313f54f3b9ac35140b [stream]
+[debug] [2022-12-22T05:47:56.959Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/ce74d7a391f9438e78dec38d101d223f8ee359317a9253667dca1556e7c31c2b [none]
+[debug] [2022-12-22T05:47:56.959Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/ce74d7a391f9438e78dec38d101d223f8ee359317a9253667dca1556e7c31c2b [stream]
+[debug] [2022-12-22T05:47:56.959Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/3406bb8118dc90e5bd72366052a3a0fe9bfdf82ac244fd6c6a16d2001bcb5e56 [none]
+[debug] [2022-12-22T05:47:56.959Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/3406bb8118dc90e5bd72366052a3a0fe9bfdf82ac244fd6c6a16d2001bcb5e56 [stream]
+[debug] [2022-12-22T05:47:56.960Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/e1d8ce19e8fea84f1122ca594c42efdc3b86199dcae1009cd23c9f11d43b91f1 [none]
+[debug] [2022-12-22T05:47:56.960Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/e1d8ce19e8fea84f1122ca594c42efdc3b86199dcae1009cd23c9f11d43b91f1 [stream]
+[debug] [2022-12-22T05:47:56.960Z] [hosting][populate queue][FINAL] {"max":658,"min":658,"avg":658,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":660}
+[debug] [2022-12-22T05:47:56.960Z] [hosting] uploads queued: 4
+[debug] [2022-12-22T05:47:58.410Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/ce74d7a391f9438e78dec38d101d223f8ee359317a9253667dca1556e7c31c2b 200
+[debug] [2022-12-22T05:47:58.410Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/ce74d7a391f9438e78dec38d101d223f8ee359317a9253667dca1556e7c31c2b [stream]
+[debug] [2022-12-22T05:47:58.465Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/04e2ee41167cd04994e4a62e829ce6a46b48a2252bd932313f54f3b9ac35140b 200
+[debug] [2022-12-22T05:47:58.465Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/04e2ee41167cd04994e4a62e829ce6a46b48a2252bd932313f54f3b9ac35140b [stream]
+[debug] [2022-12-22T05:47:59.879Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/3406bb8118dc90e5bd72366052a3a0fe9bfdf82ac244fd6c6a16d2001bcb5e56 200
+[debug] [2022-12-22T05:47:59.879Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/3406bb8118dc90e5bd72366052a3a0fe9bfdf82ac244fd6c6a16d2001bcb5e56 [stream]
+[debug] [2022-12-22T05:48:00.197Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/e1d8ce19e8fea84f1122ca594c42efdc3b86199dcae1009cd23c9f11d43b91f1 200
+[debug] [2022-12-22T05:48:00.198Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/static-site-282ac/versions/adb5110d22c57445/files/e1d8ce19e8fea84f1122ca594c42efdc3b86199dcae1009cd23c9f11d43b91f1 [stream]
+[debug] [2022-12-22T05:48:00.198Z] [hosting][upload queue][FINAL] {"max":3240,"min":1452,"avg":2280,"active":0,"complete":4,"success":4,"errored":0,"retried":0,"total":4,"elapsed":3240}
+[info] ✔  hosting[static-site-282ac]: file upload complete 
+[debug] [2022-12-22T05:48:00.200Z] [hosting] deploy completed after 4896ms
+[debug] [2022-12-22T05:48:00.203Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "static-site-282ac"
+    },
+    "version": "projects/480954645981/sites/static-site-282ac/versions/adb5110d22c57445"
+  }
+]
+[info] i  hosting[static-site-282ac]: finalizing version... 
+[debug] [2022-12-22T05:48:00.206Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/static-site-282ac/versions/adb5110d22c57445 updateMask=status%2Cconfig
+[debug] [2022-12-22T05:48:00.206Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/static-site-282ac/versions/adb5110d22c57445 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2022-12-22T05:48:01.281Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/static-site-282ac/versions/adb5110d22c57445 200
+[debug] [2022-12-22T05:48:01.281Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/static-site-282ac/versions/adb5110d22c57445 {"name":"projects/480954645981/sites/static-site-282ac/versions/adb5110d22c57445","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-12-22T05:47:54.769232Z","createUser":{"email":"intelliware.sl@gmail.com"},"finalizeTime":"2022-12-22T05:48:01.161621Z","finalizeUser":{"email":"intelliware.sl@gmail.com"}}
+[debug] [2022-12-22T05:48:01.281Z] [hosting] finalized version for static-site-282ac:[object Object]
+[info] ✔  hosting[static-site-282ac]: version finalized 
+[info] i  hosting[static-site-282ac]: releasing new version... 
+[debug] [2022-12-22T05:48:01.282Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/static-site-282ac/channels/live/releases versionName=projects%2F480954645981%2Fsites%2Fstatic-site-282ac%2Fversions%2Fadb5110d22c57445
+[debug] [2022-12-22T05:48:01.282Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/static-site-282ac/channels/live/releases {}

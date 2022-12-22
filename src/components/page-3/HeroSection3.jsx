@@ -37,11 +37,6 @@ const HeroSection3 = () => {
               </div>
               <div className="h-line"></div>
             </div>
-            {/*<p className="hero-text pt-2 pb-0 mb-0">*/}
-            {/*  Reamer Made understands the unique needs of theconstruction industry. We know how to reach your target*/}
-            {/*  audience and get your message out there, using strategies that are proven to be effective. We are here to*/}
-            {/*  help you grow your business and reach your goals.*/}
-            {/*</p>*/}
           </Col>
         </Row>
       </Container>

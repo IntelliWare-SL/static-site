@@ -61,7 +61,9 @@ const TestimonialsSection = () => {
                 grabCursor={false}
                 centeredSlides={true}
                 slidesPerView={1}
-                pagination={true}
+                pagination={{
+                  clickable: true,
+                }}
                 navigation={true}
                 className="mySwiper"
               >
