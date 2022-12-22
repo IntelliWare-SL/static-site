@@ -2,7 +2,7 @@ import {Col, Container, Row} from "react-bootstrap";
 import React from "react";
 import CustomButton from "../common/CustomButton";
 import ClientsMap from "../../../src/assets/images/clients-map.png";
-import { Slide, Fade } from "react-awesome-reveal";
+import {  Fade } from "react-awesome-reveal";
 
 const OurClientsSection = () => {
   return (

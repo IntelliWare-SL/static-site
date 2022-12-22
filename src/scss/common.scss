@@ -966,3 +966,33 @@ footer {
         }
     }
 }
+
+.button__r:after {
+    background: #fff;
+}
+.button__r:before, .button__r span {
+    display: block;
+    will-change: transform;
+    transition: transform .25s ease-out;
+}
+.button__r:hover:after, .button__r:hover:before {
+    transform: rotate(-45deg) scale(1.2);
+}
+.button__r:after {
+    background: #767860;
+    transform: scale(.01) rotate(45deg);
+}
+.button__r:after, .button__r:before {
+    left: 0;
+    top: 0.27vw;
+    width: 1.944vw;
+    height: 1.944vw;
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+}
+.button__r:after, .button__r:before, .button__r span {
+    display: block;
+    will-change: transform;
+    transition: transform .25s ease-out;
+}

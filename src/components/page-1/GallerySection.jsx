@@ -14,7 +14,7 @@ const GallerySection = () => {
         <Row className="gallery-photos pt-4 pb-3">
 
             <Col xs={3} className="px-1 px-sm-2 px-md-3 ps-0">
-              <Zoom>
+              <Zoom >
               <div className="h-line mx-auto ms-0"></div>
               <div className="window">
                 <img
@@ -38,7 +38,7 @@ const GallerySection = () => {
 
 
             <Col xs={3} className="px-1 px-sm-2 px-md-3 pe-0">
-              <Zoom>
+              <Zoom >
               <div className="h-line mx-auto me-0"></div>
               <div className="window">
                 <img
