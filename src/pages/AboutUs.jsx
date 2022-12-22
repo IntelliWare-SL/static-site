@@ -1,7 +1,7 @@
-import HeroSection2 from '../components/AboutUs/HeroSection2'
-import WhyChooseUsSection from '../components/AboutUs/WhyChooseUsSection'
-import TeamMembersSection from '../components/AboutUs/TeamMembersSection'
-import ScheduleAMeetingSection from '../components/AboutUs/ScheduleAMeetingSection'
+import HeroSection2 from '../components/aboutUs/HeroSection2'
+import WhyChooseUsSection from '../components/aboutUs/WhyChooseUsSection'
+import TeamMembersSection from '../components/aboutUs/TeamMembersSection'
+import ScheduleAMeetingSection from '../components/aboutUs/ScheduleAMeetingSection'
 import { useEffect } from 'react'
 
 const AboutUs = () => {
